@@ -10,7 +10,8 @@ if _env.exists():
         k, sep, v = line.partition("=")
         if sep and k.strip() and not k.lstrip().startswith("#"):
             os.environ.setdefault(k.strip(), v.split(" #")[0].strip())
-DB_PATH = os.getenv("DB_PATH", str(ROOT / "data" / "app.db"))
+# На Vercel файловая система только для чтения, кроме /tmp
+DB_PATH = os.getenv("DB_PATH") or ("/tmp/app.db" if os.getenv("VERCEL") else str(ROOT / "data" / "app.db"))
 SEED_PATH = ROOT / "data" / "suppliers.json"
 
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")

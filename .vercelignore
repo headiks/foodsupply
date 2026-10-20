@@ -1,0 +1,7 @@
+.env
+.claude
+.pytest_cache
+data/app.db
+tests
+scripts
+**/__pycache__
