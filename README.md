@@ -1,13 +1,3 @@
----
-title: FoodSupply — поиск поставщиков
-emoji: 🥬
-colorFrom: green
-colorTo: yellow
-sdk: docker
-app_port: 7860
-pinned: false
----
-
 # FoodSupply: поиск и сравнение поставщиков продуктов питания
 
 Сервис помогает закупщику сети HoReCa или Retail (рестораны, доставка, магазины у дома) в **России и Казахстане**:
@@ -124,7 +114,7 @@ pip install huggingface_hub
 hf auth login                                   # токен с правом write
 python scripts/deploy_hf.py <hf-user>/foodsupply
 ```
-Скрипт создаёт Docker-Space, переносит ключи из `.env` в Secrets Space и загружает код.
+Скрипт создаёт Docker-Space, переносит ключи из `.env` в Secrets Space и загружает код. Для Space в начало README нужно вернуть метаданные: `sdk: docker`, `app_port: 7860`.
 
 База лежит в `/tmp` и при перезапуске пересоздаётся из `data/suppliers.json`. Для демо этого достаточно; для постоянного хранения заметок нужен Postgres или постоянный диск.
 
