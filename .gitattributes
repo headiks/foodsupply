@@ -1,0 +1,3 @@
+*.sh text eol=lf
+*.cgi text eol=lf
+deploy/htaccess text eol=lf
