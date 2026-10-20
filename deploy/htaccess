@@ -1,7 +1,5 @@
-# Все запросы -> proxy.cgi -> uvicorn (unix-сокет)
 Options +ExecCGI
 AddHandler cgi-script .cgi
-DirectoryIndex proxy.cgi
 RewriteEngine On
-RewriteCond %{REQUEST_URI} !^/proxy\.cgi
+RewriteRule ^proxy\.cgi$ - [L]
 RewriteRule ^ proxy.cgi [L]

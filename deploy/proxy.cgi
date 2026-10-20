@@ -1,27 +1,20 @@
 #!/opt/rh/rh-python311/root/usr/bin/python3.11
-"""CGI -> uvicorn через unix-сокет. На виртуальном хостинге нет [P]-проксирования в .htaccess,
-поэтому пересылаем запрос сами (только stdlib: скрипт стартует на каждый запрос, должен быть лёгким)."""
+"""CGI -> uvicorn на 127.0.0.1. На виртуальном хостинге нет [P]-проксирования в .htaccess,
+поэтому пересылаем запрос сами (только stdlib: скрипт стартует на каждый запрос, должен быть лёгким).
+Unix-сокет не подходит: SELinux запрещает CGI Apache подключаться к сокетам пользователя, TCP на localhost разрешён."""
 import http.client
 import os
-import socket
 import subprocess
 import sys
 import time
 
 APP = "/home/a1319063/foodsupply"
-SOCK = f"{APP}/app.sock"
+PORT = 18731
 HOP = {"transfer-encoding", "connection", "keep-alive"}
 
 
-class UnixConn(http.client.HTTPConnection):
-    def connect(self):
-        self.sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
-        self.sock.settimeout(300)  # агент с LLM может думать до минуты
-        self.sock.connect(SOCK)
-
-
 def forward(method, uri, body, headers):
-    c = UnixConn("localhost", timeout=300)
+    c = http.client.HTTPConnection("127.0.0.1", PORT, timeout=300)  # агент с LLM может думать до минуты
     c.request(method, uri, body or None, headers)
     return c.getresponse()
 
@@ -34,7 +27,7 @@ if env.get("CONTENT_TYPE"):
 args = (env.get("REQUEST_METHOD", "GET"), env.get("REQUEST_URI") or "/", body, headers)
 try:
     r = forward(*args)
-except (FileNotFoundError, ConnectionRefusedError):
+except ConnectionRefusedError:
     subprocess.Popen([f"{APP}/deploy/run.sh"], start_new_session=True,
                      stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     for _ in range(40):  # холодный старт uvicorn ~2–5 с
@@ -42,7 +35,7 @@ except (FileNotFoundError, ConnectionRefusedError):
         try:
             r = forward(*args)
             break
-        except (FileNotFoundError, ConnectionRefusedError):
+        except ConnectionRefusedError:
             continue
     else:
         sys.stdout.write("Status: 503 Service Unavailable\r\nContent-Type: text/plain; charset=utf-8\r\n\r\n"

@@ -21,5 +21,6 @@ cp deploy/htaccess $WEB/.htaccess
 pkill -u "$(whoami)" -f "[u]vicorn app.main:app" || true
 sleep 1
 deploy/run.sh
-for i in $(seq 1 30); do [ -S app.sock ] && break; sleep 0.5; done
-curl -s --unix-socket app.sock http://localhost/health && echo " <- health OK"
+for i in $(seq 1 30); do curl -s -o /dev/null http://127.0.0.1:18731/health && break; sleep 0.5; done
+curl -s http://127.0.0.1:18731/health && echo " <- health OK"
+rm -f $WEB/dbg.cgi
