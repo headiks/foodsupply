@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% from "_macros.html" import cats %}
+{% block title %}Воронка{% endblock %}
+{% block content %}
+<div class="row between"><h1>Воронка закупщика</h1><a class="btn ghost" href="/export.csv">Экспорт шортлиста (CSV)</a></div>
+<p class="small muted">Статусы ставятся в карточке поставщика. Видны всей команде, с автором и временем.</p>
+<div class="board">
+{% for k, label in STATUSES.items() %}
+  <div class="col"><h3>{{ label }} <span class="muted">{{ board[k]|length }}</span></h3>
+  {% for s in board[k] %}
+    <div class="card" style="padding:10px">
+      <a href="/s/{{ s.id }}"><b>{{ s.name }}</b></a>
+      <div class="small muted">{{ s.city }} · {{ s.author }}, {{ s.updated_at }}{% if s.notes %} · 💬 {{ s.notes }}{% endif %}</div>
+    </div>
+  {% endfor %}
+  </div>
+{% endfor %}
+</div>
+{% endblock %}

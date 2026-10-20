@@ -1,0 +1,7 @@
+<label>Письмо ({{ mode }})</label>
+<textarea id="rfqtext" style="min-height:260px">{{ text }}</textarea>
+<div class="row" style="margin-top:8px">
+  <button class="btn sm" type="button" data-copy="#rfqtext">Копировать</button>
+  {% if mailto %}<a class="btn ghost sm" href="{{ mailto }}">Открыть в почте</a>{% else %}<span class="small muted">email поставщика не известен</span>{% endif %}
+</div>
+<p class="small muted">После отправки поставьте статус «Запрос КП отправлен».</p>

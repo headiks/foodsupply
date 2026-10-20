@@ -1,0 +1,4872 @@
+[
+ {
+  "name": "Гросс Фуд",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://grossfood.ru/",
+  "phone": "+7 (495) 792-80-08",
+  "email": "info@grossfood.ru",
+  "tax_id": "7724400648",
+  "categories": [
+   "broadline",
+   "meat",
+   "fish"
+  ],
+  "products": "Мясо (в т.ч. мраморная говядина, баранина), рыба, бакалея, молочная продукция для ресторанов, кафе, кейтеринга",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Отгрузка от 5 000 ₽, доставка собственным транспортом на следующий день",
+  "moq_value": 5000,
+  "moq_unit": "RUB",
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Меркурий"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://grossfood.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://grossfood.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://grossfood.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://grossfood.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://grossfood.ru/",
+    "date": "2026-10-20"
+   },
+   "moq_value": {
+    "site": "https://grossfood.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://grossfood.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://grossfood.ru/",
+   "https://grossfood.ru/about/",
+   "https://grossfood.ru/about/blog/",
+   "https://grossfood.ru/about/receipts/"
+  ]
+ },
+ {
+  "name": "METRO Cash & Carry",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://metro-cc.ru/",
+  "phone": "+7 (495) 502 10 09",
+  "email": "customerservise.store10@metro-cc.ru",
+  "tax_id": "7704218694",
+  "categories": [
+   "broadline",
+   "packaging",
+   "grocery"
+  ],
+  "products": "45 000 товаров по оптовым ценам: продукты, упаковка, хозтовары; сеть гипермаркетов по РФ",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": "Самовывоз из торговых центров по РФ или доставка METRO",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://metro-cc.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://metro-cc.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://metro-cc.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://metro-cc.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://metro-cc.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://metro-cc.ru/",
+   "https://metro-cc.ru/about/feedback?pageType=b2b",
+   "https://metro-cc.ru/about/feedback?pageType=b2c"
+  ]
+ },
+ {
+  "name": "InterFoodGroup",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://interfoodgroup.ru/",
+  "phone": "8 (495) 141-07-77",
+  "email": "doc@interfoodgroup.ru",
+  "tax_id": "7728395861",
+  "categories": [
+   "broadline",
+   "meat",
+   "frozen"
+  ],
+  "products": "Федеральный дистрибьютор для HoReCa: мясо и птица, картофель фри, заморозка, бакалея; импорт",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Доставка по всей России, минимальный заказ от 10 коробов",
+  "moq_value": 10,
+  "moq_unit": "коробов",
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://interfoodgroup.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://interfoodgroup.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://interfoodgroup.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://interfoodgroup.ru/",
+    "date": "2026-10-20"
+   },
+   "moq_value": {
+    "site": "https://interfoodgroup.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://interfoodgroup.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://interfoodgroup.ru/",
+   "https://interfoodgroup.ru/about",
+   "https://interfoodgroup.ru/contact",
+   "https://interfoodgroup.ru/kolbasa-optom"
+  ]
+ },
+ {
+  "name": "SuperFood XXI",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://superfood21.com/",
+  "phone": "+7 968 846 8888",
+  "email": "superfood@superfood21.com",
+  "tax_id": null,
+  "categories": [
+   "broadline",
+   "meat",
+   "fish",
+   "veg",
+   "frozen"
+  ],
+  "products": "Мясо, рыба, овощи и заморозка для ресторанов",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": "Доставка 3 раза в день, круглосуточно по Москве и МО, отправка в регионы",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Меркурий",
+   "Декларации ЕАЭС"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://superfood21.com/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://superfood21.com/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://superfood21.com/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://superfood21.com/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://superfood21.com/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://superfood21.com/",
+   "https://superfood21.com/#Dostavka",
+   "https://superfood21.com/horeca",
+   "https://superfood21.com/opt"
+  ]
+ },
+ {
+  "name": "ТД «Опт-Торг HoReCa»",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://opttorg-horeca.ru/",
+  "phone": "+7 (903) 235 51 41",
+  "email": "info@opt.ru.net",
+  "tax_id": "7720942199",
+  "categories": [
+   "broadline",
+   "veg"
+  ],
+  "products": "Фрукты, овощи и товары HoReCa на агрокластере Фуд Сити",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Онлайн-заказ, доставка по Москве и МО",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": 30000,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://opttorg-horeca.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://opttorg-horeca.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://opttorg-horeca.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://opttorg-horeca.ru/",
+    "date": "2026-10-20"
+   },
+   "free_delivery_from": {
+    "site": "https://opttorg-horeca.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://opttorg-horeca.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://opttorg-horeca.ru/",
+   "https://opttorg-horeca.ru/novosti/dostavka-na-rajone.html",
+   "https://opttorg-horeca.ru/katalog/bakaleya/muka-optom.html",
+   "https://opttorg-horeca.ru/katalog/bakaleya/sahar-optom.html"
+  ]
+ },
+ {
+  "name": "GFC (Global FoodTech Company)",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://gfc-russia.ru/",
+  "phone": "+7 (800) 550-41-83",
+  "email": "marketing@gfc-russia.ru",
+  "tax_id": "7726410031",
+  "categories": [
+   "broadline",
+   "dairy",
+   "frozen",
+   "meat"
+  ],
+  "products": "Продукты для ресторанов: свежие продукты, молочная продукция, заморозка, картофель фри",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Доставка по Москве и всей России",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Меркурий"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://gfc-russia.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://gfc-russia.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://gfc-russia.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://gfc-russia.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://gfc-russia.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://gfc-russia.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://gfc-russia.ru/",
+   "https://gfc-russia.ru/",
+   "https://gfc-russia.ru/wiki/market/horeca",
+   "https://gfc-russia.ru/about"
+  ]
+ },
+ {
+  "name": "ТД «Гурман»",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://gurman-llc.ru/",
+  "phone": "+7 (495) 133-00-60",
+  "email": "office@gurman-llc.ru",
+  "tax_id": "7728383263",
+  "categories": [
+   "broadline",
+   "frozen"
+  ],
+  "products": "Продукты для ресторанов, кафе, кофеен и баров, замороженный картофель фри",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Доставка по Москве, МО и РФ",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": 20000,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://gurman-llc.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://gurman-llc.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://gurman-llc.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://gurman-llc.ru/",
+    "date": "2026-10-20"
+   },
+   "free_delivery_from": {
+    "site": "https://gurman-llc.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://gurman-llc.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://gurman-llc.ru/",
+   "https://gurman-llc.ru/o_kompanii/about/",
+   "https://gurman-llc.ru/o_kompanii/rekvizity/",
+   "https://gurman-llc.ru/payment/"
+  ]
+ },
+ {
+  "name": "Свит Лайф Фудсервис («Сладкая жизнь»)",
+  "country": "RU",
+  "city": "Нижний Новгород",
+  "website": "https://swlife.ru/",
+  "phone": "8 (800) 200-58-58",
+  "email": "Loseva@swlife.ru",
+  "tax_id": "5258068806",
+  "categories": [
+   "broadline",
+   "packaging",
+   "grocery"
+  ],
+  "products": "5 000+ продуктов питания, упаковка и профхимия для ресторанов, гостиниц и производств; филиалы в 27 регионах",
+  "delivery_regions": [
+   "Нижний Новгород",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Ежедневная доставка со складов в регионах присутствия",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://swlife.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://swlife.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://swlife.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://swlife.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://swlife.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://swlife.ru/",
+   "https://swlife.ru/delivery",
+   "https://swlife.ru/contact",
+   "https://swlife.ru/"
+  ]
+ },
+ {
+  "name": "Восток-Запад",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://ews.ru/",
+  "phone": "8 800 700-35-80",
+  "email": "callcenter@ews.ru",
+  "tax_id": null,
+  "categories": [
+   "broadline",
+   "asian",
+   "frozen"
+  ],
+  "products": "Продукты для суши и поке, картофель фри, заморозка, бакалея для HoReCa",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Доставка по России",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Меркурий"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://ews.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://ews.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://ews.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://ews.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://ews.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://www.ews.ru/",
+   "https://www.ews.ru/kak-stat-klientom",
+   "https://www.ews.ru/first-form",
+   "https://www.ews.ru/logistics"
+  ]
+ },
+ {
+  "name": "MANESK",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://manesk.ru/",
+  "phone": "+7 (495) 544 49 94",
+  "email": "info@manesk.ru",
+  "tax_id": "7729583843",
+  "categories": [
+   "broadline",
+   "grocery"
+  ],
+  "products": "Импорт, производство и поставка продуктов для ресторанов, столовых, комбинатов питания, Retail",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Меркурий"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://manesk.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://manesk.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://manesk.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://manesk.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://manesk.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://manesk.ru/",
+   "https://manesk.ru/partners",
+   "https://manesk.ru/about",
+   "https://manesk.ru/contacts"
+  ]
+ },
+ {
+  "name": "Resfood",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://resfood.ru/",
+  "phone": "+7 (967) 039-44-26",
+  "email": "info@resfood.ru",
+  "tax_id": "9703001861",
+  "categories": [
+   "asian",
+   "broadline",
+   "sauces"
+  ],
+  "products": "Продукты для суши и роллов, собственное производство профессиональных продуктов для HoReCa",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Доставка по Москве и России",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "ХАССП"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://resfood.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://resfood.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://resfood.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://resfood.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://resfood.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://resfood.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://www.resfood.ru/",
+   "https://www.resfood.ru/about/",
+   "https://www.resfood.ru/contacts/",
+   "https://www.resfood.ru/"
+  ]
+ },
+ {
+  "name": "ПТК «Экор»",
+  "country": "RU",
+  "city": "Санкт-Петербург",
+  "website": "https://ekorfish.com/",
+  "phone": "+7 (495) 637-82-28",
+  "email": "info@ekorfish.ru",
+  "tax_id": "7718741865",
+  "categories": [
+   "broadline",
+   "fish",
+   "meat",
+   "veg",
+   "grocery",
+   "dairy"
+  ],
+  "products": "3 500+ позиций: рыба, мясо, птица, овощи, бакалея, молочная продукция",
+  "delivery_regions": [
+   "СПб и ЛО"
+  ],
+  "delivery_terms": "Бесплатная доставка при заказе от 5 000 ₽",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": 5000,
+  "defer_days": null,
+  "certificates": [
+   "Меркурий"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://ekorfish.com/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://ekorfish.com/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://ekorfish.com/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://ekorfish.com/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://ekorfish.com/",
+    "date": "2026-10-20"
+   },
+   "free_delivery_from": {
+    "site": "https://ekorfish.com/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://ekorfish.com/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://ekorfish.com/",
+   "https://ekorfish.com/delivery/",
+   "https://ekorfish.com/contacts/",
+   "https://ekorfish.com/about/"
+  ]
+ },
+ {
+  "name": "EuroFoods",
+  "country": "RU",
+  "city": "Санкт-Петербург",
+  "website": "https://efspb.ru/",
+  "phone": "+7 (812) 321-61-31",
+  "email": "vea@efspb.ru",
+  "tax_id": null,
+  "categories": [
+   "broadline"
+  ],
+  "products": "Продукты питания для HoReCa",
+  "delivery_regions": [
+   "СПб и ЛО"
+  ],
+  "delivery_terms": "Доставка день в день по СПб и Северо-Западу, бесплатно от 10 000 ₽",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": 10000,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://efspb.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://efspb.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://efspb.ru/",
+    "date": "2026-10-20"
+   },
+   "free_delivery_from": {
+    "site": "https://efspb.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://efspb.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://efspb.ru/",
+   "https://efspb.ru/about/news/",
+   "https://efspb.ru/start/",
+   "https://efspb.ru/clients/"
+  ]
+ },
+ {
+  "name": "ТДО",
+  "country": "RU",
+  "city": "Санкт-Петербург",
+  "website": "https://tdo.spb.ru/",
+  "phone": "8 812 425 34 14",
+  "email": "info@tdo.spb.ru",
+  "tax_id": null,
+  "categories": [
+   "broadline",
+   "veg",
+   "meat",
+   "grocery"
+  ],
+  "products": "1 500+ наименований: овощи, фрукты, мясо, бакалея для ресторанов, кафе, гостиниц",
+  "delivery_regions": [
+   "СПб и ЛО"
+  ],
+  "delivery_terms": "Бесплатная доставка по СПб от 5 000 ₽",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": 5000,
+  "defer_days": null,
+  "certificates": [
+   "Меркурий"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://tdo.spb.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://tdo.spb.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://tdo.spb.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://tdo.spb.ru/",
+    "date": "2026-10-20"
+   },
+   "free_delivery_from": {
+    "site": "https://tdo.spb.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://tdo.spb.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://tdo.spb.ru/",
+   "https://tdo.spb.ru/about",
+   "https://tdo.spb.ru/delivery",
+   "https://tdo.spb.ru/contacts"
+  ]
+ },
+ {
+  "name": "ПитерПродКо",
+  "country": "RU",
+  "city": "Санкт-Петербург",
+  "website": "https://piterprodco.ru/",
+  "phone": "+7 (981) 751-71-51",
+  "email": "zey.rasad@mail.ru",
+  "tax_id": "780634067252",
+  "categories": [
+   "broadline",
+   "veg",
+   "grocery"
+  ],
+  "products": "Бакалея, овощи, фрукты для HoReCa и ритейла",
+  "delivery_regions": [
+   "СПб и ЛО"
+  ],
+  "delivery_terms": "Доставка в день заказа или на удобную дату по СПб и ЛО",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Декларации ЕАЭС"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://piterprodco.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://piterprodco.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://piterprodco.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://piterprodco.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://piterprodco.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://piterprodco.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://piterprodco.ru/",
+   "https://piterprodco.ru/about",
+   "https://piterprodco.ru/kontakty"
+  ]
+ },
+ {
+  "name": "Гранд Продукт",
+  "country": "RU",
+  "city": "Екатеринбург",
+  "website": "https://grandproduktekb.ru/",
+  "phone": "+7 343 214 77 01",
+  "email": "Zakup2@GrandProduktEkb.ru",
+  "tax_id": "6670506587",
+  "categories": [
+   "broadline"
+  ],
+  "products": "Оптовые поставки продуктов питания",
+  "delivery_regions": [
+   "Екатеринбург"
+  ],
+  "delivery_terms": "Логистика по Свердловской области",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://grandproduktekb.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://grandproduktekb.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://grandproduktekb.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://grandproduktekb.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://grandproduktekb.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://grandproduktekb.ru/",
+   "https://grandproduktekb.ru/#rec1428107161",
+   "https://grandproduktekb.ru/#:rec1383971791"
+  ]
+ },
+ {
+  "name": "ООО «Наш Союз»",
+  "country": "RU",
+  "city": "Екатеринбург",
+  "website": "https://nash-souz.ru/",
+  "phone": "+7 (343) 379-55-90",
+  "email": "info@nash-souz.su",
+  "tax_id": null,
+  "categories": [
+   "broadline"
+  ],
+  "products": "Продукты для HoReCa",
+  "delivery_regions": [
+   "Екатеринбург",
+   "Вся Россия"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://nash-souz.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://nash-souz.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://nash-souz.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://nash-souz.ru/",
+   "https://nash-souz.ru/about/",
+   "https://nash-souz.ru/usloviya-sotrudnichestva/",
+   "https://nash-souz.ru/contacts/"
+  ]
+ },
+ {
+  "name": "ECLIPSE",
+  "country": "RU",
+  "city": "Екатеринбург",
+  "website": "https://eclipse.rest/",
+  "phone": "+7 (937) 994-15-71",
+  "email": "Info@eclipse.rest",
+  "tax_id": null,
+  "categories": [
+   "broadline"
+  ],
+  "products": "Продукты питания для ресторанов, отелей и кафе",
+  "delivery_regions": [
+   "Екатеринбург",
+   "Вся Россия"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://eclipse.rest/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://eclipse.rest/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://eclipse.rest/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://eclipse.rest/",
+   "https://eclipse.rest/#rec1025661636",
+   "https://eclipse.rest/#rec1025446201",
+   "https://eclipse.rest/#zeropopup"
+  ]
+ },
+ {
+  "name": "ТК «Дип»",
+  "country": "RU",
+  "city": "Екатеринбург",
+  "website": "https://tkdip.ru/",
+  "phone": "+7 (343) 288-73-88",
+  "email": "dip@tkdip.ru",
+  "tax_id": null,
+  "categories": [
+   "grocery",
+   "sauces"
+  ],
+  "products": "Продукты питания, специи, бытовая химия оптом",
+  "delivery_regions": [
+   "Екатеринбург",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Доставка по всей России, складская логистика",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://tkdip.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://tkdip.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://tkdip.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://tkdip.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://tkdip.ru/",
+   "https://tkdip.ru/catalog/produkty_pitaniya/ingredienty_dlya_pishchevogo_proizvodstva/bulony_dlya_horeca/",
+   "https://tkdip.ru/catalog/produkty_pitaniya/ingredienty_dlya_pishchevogo_proizvodstva/konservatsiya_dlya_horeca/",
+   "https://tkdip.ru/catalog/produkty_pitaniya/ingredienty_dlya_pishchevogo_proizvodstva/krupy_dlya_horeca/"
+  ]
+ },
+ {
+  "name": "ООО «Империя вкуса»",
+  "country": "RU",
+  "city": "Екатеринбург",
+  "website": "https://imperiyavkusa96.ru/",
+  "phone": "+7 (912) 680-25-02",
+  "email": "oimperiyavkusa@bk.ru",
+  "tax_id": null,
+  "categories": [
+   "broadline"
+  ],
+  "products": "Комплексные поставки продуктов питания",
+  "delivery_regions": [
+   "Екатеринбург",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Поставки по всей России",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://imperiyavkusa96.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://imperiyavkusa96.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://imperiyavkusa96.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://imperiyavkusa96.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "http://imperiyavkusa96.ru/",
+   "http://imperiyavkusa96.ru/dostavka-i-oplata",
+   "http://imperiyavkusa96.ru",
+   "http://imperiyavkusa96.ru/about"
+  ]
+ },
+ {
+  "name": "ООО «ЮЛА»",
+  "country": "RU",
+  "city": "Новосибирск",
+  "website": "https://ula-horeca.ru/",
+  "phone": "8 800 234 7301",
+  "email": "info@ula-horeca.ru",
+  "tax_id": null,
+  "categories": [
+   "broadline"
+  ],
+  "products": "Ингредиенты для кафе, ресторанов, кофеен и баров; калькуляции и техкарты",
+  "delivery_regions": [
+   "Новосибирск",
+   "Вся Россия"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://ula-horeca.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://ula-horeca.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://ula-horeca.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://ula-horeca.ru/",
+   "https://ula-horeca.ru/about",
+   "https://ula-horeca.ru/brand-chef",
+   "https://ula-horeca.ru/#contact"
+  ]
+ },
+ {
+  "name": "ОЛЭНДФУД (Premium Food)",
+  "country": "RU",
+  "city": "Новосибирск",
+  "website": "https://premiumfoodnsk.ru/",
+  "phone": "+7 961 010 7500",
+  "email": "mail@example.com",
+  "tax_id": "5405512454",
+  "categories": [
+   "fish",
+   "broadline"
+  ],
+  "products": "Морепродукты, деликатесы, редкие ингредиенты, 1 000+ позиций",
+  "delivery_regions": [
+   "Новосибирск"
+  ],
+  "delivery_terms": "Доставка день в день, минимальная сумма для доставки 7 000 ₽",
+  "moq_value": 7000,
+  "moq_unit": "RUB",
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://premiumfoodnsk.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://premiumfoodnsk.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://premiumfoodnsk.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://premiumfoodnsk.ru/",
+    "date": "2026-10-20"
+   },
+   "moq_value": {
+    "site": "https://premiumfoodnsk.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://premiumfoodnsk.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://premiumfoodnsk.ru/",
+   "https://premiumfoodnsk.ru/#contact",
+   "https://premiumfoodnsk.ru/sotrudnichestvo",
+   "https://premiumfoodnsk.ru/about"
+  ]
+ },
+ {
+  "name": "Сибирский продукт",
+  "country": "RU",
+  "city": "Новосибирск",
+  "website": "https://sibprod.pro/",
+  "phone": "8 (383) 363-67-40",
+  "email": "alekseenko_my@sibprod.info",
+  "tax_id": null,
+  "categories": [
+   "broadline"
+  ],
+  "products": "Дистрибьютор: прямые поставки от производителей для HoReCa и сетей",
+  "delivery_regions": [
+   "Новосибирск"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://sibprod.pro/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://sibprod.pro/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://sibprod.pro/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://sibprod.pro/",
+   "http://sibprod.pro/Контакты"
+  ]
+ },
+ {
+  "name": "ООО «СибирьТрейд»",
+  "country": "RU",
+  "city": "Новосибирск",
+  "website": "https://sibirtreid.ru/",
+  "phone": "+7 (383) 248-33-00",
+  "email": "info@sibirtreid.ru",
+  "tax_id": "5403078104",
+  "categories": [
+   "broadline"
+  ],
+  "products": "Оптовые поставки продуктов питания с 2012 года",
+  "delivery_regions": [
+   "Новосибирск"
+  ],
+  "delivery_terms": "Минимальный заказ от 100 000 ₽",
+  "moq_value": 100000,
+  "moq_unit": "RUB",
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Меркурий"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://sibirtreid.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://sibirtreid.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://sibirtreid.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://sibirtreid.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://sibirtreid.ru/",
+    "date": "2026-10-20"
+   },
+   "moq_value": {
+    "site": "https://sibirtreid.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://sibirtreid.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://sibirtreid.ru/",
+   "https://sibirtreid.ru/about/",
+   "https://sibirtreid.ru/delivery-payment/",
+   "https://sibirtreid.ru/contacts/"
+  ]
+ },
+ {
+  "name": "Арт Фуд",
+  "country": "RU",
+  "city": "Казань",
+  "website": "https://artfoodkzn.ru/",
+  "phone": "+7 (800) 700 87 11",
+  "email": "info@artfoodkzn.ru",
+  "tax_id": "1685019869",
+  "categories": [
+   "broadline"
+  ],
+  "products": "Продукты питания для HoReCa, привоз под запрос",
+  "delivery_regions": [
+   "Казань"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://artfoodkzn.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://artfoodkzn.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://artfoodkzn.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://artfoodkzn.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://artfoodkzn.ru/",
+   "https://artfoodkzn.ru/#46d95cdc8d34441db73199ef8a4ac4db",
+   "https://artfoodkzn.ru/#4355964ea2d944ccbd671dce95eed17c"
+  ]
+ },
+ {
+  "name": "СЛК Food",
+  "country": "RU",
+  "city": "Краснодар",
+  "website": "https://slkfood.ru/",
+  "phone": "8 (800) 444-04-62",
+  "email": "slkfood@yandex.ru",
+  "tax_id": null,
+  "categories": [
+   "frozen",
+   "broadline"
+  ],
+  "products": "Замороженные продукты для кафе, ресторанов, АЗС и отелей",
+  "delivery_regions": [
+   "Краснодар"
+  ],
+  "delivery_terms": "Склады на юге России, собственный транспорт",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://slkfood.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://slkfood.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://slkfood.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://slkfood.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://slkfood.ru/",
+   "https://slkfood.ru/about/",
+   "https://slkfood.ru/contact/"
+  ]
+ },
+ {
+  "name": "«По рыбке»",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://poribke.ru/",
+  "phone": "+7 (495) 197-00-77",
+  "email": "sale@poribke.ru",
+  "tax_id": null,
+  "categories": [
+   "fish"
+  ],
+  "products": "Рыба, морепродукты, красная икра, рыбные закуски; комплексные поставки в рестораны",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Минимальная сумма заказа 1 000 ₽",
+  "moq_value": 1000,
+  "moq_unit": "RUB",
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://poribke.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://poribke.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://poribke.ru/",
+    "date": "2026-10-20"
+   },
+   "moq_value": {
+    "site": "https://poribke.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://poribke.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://poribke.ru/",
+   "https://poribke.ru/help/payment/",
+   "https://poribke.ru/help/delivery/",
+   "https://poribke.ru/company/"
+  ]
+ },
+ {
+  "name": "Сифуд Лайн",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://seafoodline.ru/",
+  "phone": null,
+  "email": null,
+  "tax_id": null,
+  "categories": [
+   "fish",
+   "asian"
+  ],
+  "products": "Рыба и морепродукты для отелей, ресторанов, кафе и суши-баров",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Доставка по Москве и регионам",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Декларации ЕАЭС"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "certificates": {
+    "site": "https://seafoodline.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://seafoodline.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://seafoodline.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://seafoodline.ru/"
+  ]
+ },
+ {
+  "name": "SKY FISH",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://fishmarket.ru/",
+  "phone": "+7 (495) 710-77-17",
+  "email": "info@fishmarket.ru",
+  "tax_id": "7724564269",
+  "categories": [
+   "fish"
+  ],
+  "products": "Импорт свежемороженой и охлаждённой рыбы и морепродуктов (Чили, Аргентина, Китай, Турция и др.)",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://fishmarket.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://fishmarket.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://fishmarket.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://fishmarket.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://fishmarket.ru/",
+   "https://fishmarket.ru/about/",
+   "https://fishmarket.ru/contacts/",
+   "https://fishmarket.ru/zakaz-i-oplata/"
+  ]
+ },
+ {
+  "name": "ИНАРКТИКА",
+  "country": "RU",
+  "city": "Мурманск",
+  "website": "https://inarctica.com/",
+  "phone": "+7 (495) 258-99-28",
+  "email": "info@inarctica.com",
+  "tax_id": null,
+  "categories": [
+   "fish"
+  ],
+  "products": "Охлаждённый атлантический лосось и форель собственного выращивания (Баренцево море, Карелия)",
+  "delivery_regions": [
+   "Мурманск"
+  ],
+  "delivery_terms": "Крупный опт, поставки сетям и дистрибьюторам",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://inarctica.com/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://inarctica.com/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://inarctica.com/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://inarctica.com/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://inarctica.com/",
+   "https://inarctica.com/company/about/",
+   "https://inarctica.com/company/mission-and-values/",
+   "https://inarctica.com/company/history/"
+  ]
+ },
+ {
+  "name": "VICI (Вичюнай-Русь)",
+  "country": "RU",
+  "city": "Калининград",
+  "website": "https://vici.ru/",
+  "phone": "+7 (495) 221-66-46",
+  "email": "alm.info@vici.kz",
+  "tax_id": "3911008930",
+  "categories": [
+   "fish",
+   "frozen"
+  ],
+  "products": "Сурими, рыба и морепродукты, готовые блюда; представительства в РФ и Казахстане",
+  "delivery_regions": [
+   "Калининград"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://vici.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://vici.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://vici.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://vici.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://vici.ru/",
+   "https://vici.ru/contacts"
+  ]
+ },
+ {
+  "name": "Доброфлот",
+  "country": "RU",
+  "city": "Владивосток",
+  "website": "https://dobroflot.ru/",
+  "phone": "+7 (423) 230-80-30",
+  "email": "info@dobroflot.info",
+  "tax_id": null,
+  "categories": [
+   "fish"
+  ],
+  "products": "Рыбные консервы и мороженая рыба собственного вылова",
+  "delivery_regions": [
+   "Владивосток"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://dobroflot.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://dobroflot.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://dobroflot.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://xn--90afwkbbltp.xn--p1ai/",
+   "https://xn--90afwkbbltp.xn--p1ai/o-kompanii",
+   "https://xn--90afwkbbltp.xn--p1ai/o-kompanii/istoriya",
+   "https://xn--90afwkbbltp.xn--p1ai/contacts"
+  ]
+ },
+ {
+  "name": "ООО «ЭДЕМ»",
+  "country": "RU",
+  "city": "Санкт-Петербург",
+  "website": "https://edem-opt.ru/",
+  "phone": "+7 (904) 714-88-71",
+  "email": "parizodaboti@gmail.com",
+  "tax_id": "7826056031",
+  "categories": [
+   "fish"
+  ],
+  "products": "Скумбрия, сардина, тунец, пикша, форель охлаждённая и др.",
+  "delivery_regions": [
+   "СПб и ЛО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Со склада в СПб по всей России",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://edem-opt.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://edem-opt.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://edem-opt.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://edem-opt.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://edem-opt.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://edem-opt.ru/",
+   "https://edem-opt.ru/#contact"
+  ]
+ },
+ {
+  "name": "Defa group",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://opt.defagroup.com/",
+  "phone": "8 (800) 600-08-81",
+  "email": "opt@defagroup.com",
+  "tax_id": null,
+  "categories": [
+   "fish"
+  ],
+  "products": "Свежая рыба и морепродукты, прямой импорт; филиалы в Самаре, Екатеринбурге, Новосибирске",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Доставка по России",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Меркурий",
+   "Декларации ЕАЭС"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://opt.defagroup.com/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://opt.defagroup.com/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://opt.defagroup.com/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://opt.defagroup.com/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://opt.defagroup.com/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://opt.defagroup.com/",
+   "https://opt.defagroup.com/catalog/selections/oktyabr-na-volne-snizheniya/",
+   "https://opt.defagroup.com/catalog/selections/v-souse-vygodno/",
+   "https://opt.defagroup.com/catalog/spetspredlozhenie/"
+  ]
+ },
+ {
+  "name": "FishCity Food",
+  "country": "RU",
+  "city": "Мытищи",
+  "website": "https://fishcity24.ru/",
+  "phone": "+7(495) 133-92-32",
+  "email": "info@fishcity24.ru",
+  "tax_id": null,
+  "categories": [
+   "asian",
+   "fish",
+   "sauces"
+  ],
+  "products": "Лосось, тунец, угорь, рис для суши ГОСТ, нори, соусы для суши-баров",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://fishcity24.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://fishcity24.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://fishcity24.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://fishcity24.ru/",
+   "https://fishcity24.ru/help/delivery/",
+   "https://fishcity24.ru/company/",
+   "https://fishcity24.ru/company/index.php"
+  ]
+ },
+ {
+  "name": "Tamaki",
+  "country": "RU",
+  "city": "Лыткарино",
+  "website": "https://tamaki.ru/",
+  "phone": "+7 495 989 44 35",
+  "email": "hello@tamaki.ru",
+  "tax_id": null,
+  "categories": [
+   "asian",
+   "sauces"
+  ],
+  "products": "Рис, нори, васаби, панко, соусы для японской и паназиатской кухни; прямые поставки любых объёмов",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": "Работа с 85 регионами РФ и СНГ",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://tamaki.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://tamaki.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://tamaki.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://tamaki.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://tamaki.ru/",
+   "https://tamaki.ru/about/",
+   "https://tamaki.ru/about/#ab",
+   "https://tamaki.ru/about/#p"
+  ]
+ },
+ {
+  "name": "Порционка",
+  "country": "RU",
+  "city": "Челябинск",
+  "website": "https://porcionka.ru/",
+  "phone": "+7 992 501-81-32",
+  "email": "sales@porcionka.ru",
+  "tax_id": "7449126160",
+  "categories": [
+   "asian",
+   "sauces",
+   "packaging"
+  ],
+  "products": "Порционный соевый соус, имбирь, васаби; контрактное производство и брендирование (СТМ)",
+  "delivery_regions": [
+   "Челябинск",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Поставки по России",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://porcionka.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://porcionka.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://porcionka.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://porcionka.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://porcionka.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://porcionka.ru/",
+   "https://porcionka.ru/horeca-supply",
+   "https://porcionka.ru/delivery",
+   "https://porcionka.ru/#contact"
+  ]
+ },
+ {
+  "name": "Суши Трейдинг",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://sushitrading.ru/",
+  "phone": null,
+  "email": null,
+  "tax_id": null,
+  "categories": [
+   "asian"
+  ],
+  "products": "Товары для японских ресторанов и продукты для суши",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "categories": {
+    "site": "https://sushitrading.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://sushitrading.ru/",
+   "https://sushitrading.ru/"
+  ]
+ },
+ {
+  "name": "АПХ «Мираторг»",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://miratorg.ru/",
+  "phone": "+7 (495) 651-92-52",
+  "email": "export@agrohold.ru",
+  "tax_id": null,
+  "categories": [
+   "meat"
+  ],
+  "products": "Свинина, мраморная говядина, полуфабрикаты; направление для ресторанов",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://miratorg.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://miratorg.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://miratorg.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://miratorg.ru/en/",
+   "https://miratorg.ru/en/business/horeca/",
+   "https://miratorg.ru/en/about/",
+   "https://miratorg.ru/en/contacts/"
+  ]
+ },
+ {
+  "name": "Группа «Черкизово»",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://cherkizovo.com/",
+  "phone": "+7 (495) 660 24 40",
+  "email": "info@cherkizovo.com",
+  "tax_id": null,
+  "categories": [
+   "meat"
+  ],
+  "products": "Мясо птицы, свинина, колбасные изделия, полуфабрикаты",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://cherkizovo.com/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://cherkizovo.com/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://cherkizovo.com/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://cherkizovo-group.com/",
+   "https://cherkizovo-group.com/about/",
+   "https://cherkizovo-group.com/about/#production",
+   "https://cherkizovo-group.com/about/#values"
+  ]
+ },
+ {
+  "name": "ГК «Заречное» (Праймбиф)",
+  "country": "RU",
+  "city": "Воронеж",
+  "website": "https://zarechnoe.ru/",
+  "phone": "+7 (473) 206-53-39",
+  "email": "ashishimorov@zarechnoe.ru",
+  "tax_id": "3625011330",
+  "categories": [
+   "meat"
+  ],
+  "products": "Мраморная говядина полного цикла (бренд Праймбиф): стейки, отруба",
+  "delivery_regions": [
+   "Воронеж"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Декларации ЕАЭС"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://zarechnoe.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://zarechnoe.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://zarechnoe.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://zarechnoe.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://zarechnoe.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://zarechnoe.ru/",
+   "https://zarechnoe.ru/contacts/",
+   "https://zarechnoe.ru/quality/certificates/",
+   "https://zarechnoe.ru/about/"
+  ]
+ },
+ {
+  "name": "Алдифуд",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://aldifood.ru/",
+  "phone": "+7 960 880 95 07",
+  "email": "buh@aldifood.ru",
+  "tax_id": null,
+  "categories": [
+   "meat"
+  ],
+  "products": "Говядина: отруба, щёчки; мясо оптом от производителя",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Меркурий",
+   "Декларации ЕАЭС"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://aldifood.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://aldifood.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://aldifood.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://aldifood.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://aldifood.ru/",
+   "https://aldifood.ru/#company",
+   "https://aldifood.ru/#contact"
+  ]
+ },
+ {
+  "name": "ТД ЯЗМ",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://td-yazm.ru/",
+  "phone": "+7 (499) 110-11-14",
+  "email": "andreev@td-yazm.ru",
+  "tax_id": null,
+  "categories": [
+   "meat"
+  ],
+  "products": "Охлаждённое и замороженное мясо: курица, свинина, говядина, индейка",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": "Минимальный заказ по Москве от 500 кг",
+  "moq_value": 500,
+  "moq_unit": "кг",
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Меркурий"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://td-yazm.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://td-yazm.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://td-yazm.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://td-yazm.ru/",
+    "date": "2026-10-20"
+   },
+   "moq_value": {
+    "site": "https://td-yazm.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://td-yazm.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://td-yazm.ru/",
+   "https://td-yazm.ru/o-kompanii",
+   "https://td-yazm.ru/dostavka-myasa",
+   "https://td-yazm.ru/contacts"
+  ]
+ },
+ {
+  "name": "«Казанские Деликатесы»",
+  "country": "RU",
+  "city": "Казань",
+  "website": "https://kazandelikates.tatar/",
+  "phone": "+7 987 217 02 02",
+  "email": "info@kazandelikates.tatar",
+  "tax_id": "1686021074",
+  "categories": [
+   "meat"
+  ],
+  "products": "Халяльные колбасы и мясные деликатесы собственного производства",
+  "delivery_regions": [
+   "Казань",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Доставка по Москве, Казани и всей России; минимальная сумма 10 000 ₽",
+  "moq_value": 10000,
+  "moq_unit": "RUB",
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://kazandelikates.tatar/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://kazandelikates.tatar/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://kazandelikates.tatar/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://kazandelikates.tatar/",
+    "date": "2026-10-20"
+   },
+   "moq_value": {
+    "site": "https://kazandelikates.tatar/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://kazandelikates.tatar/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://kazandelikates.tatar/",
+   "https://kazandelikates.tatar/cooperation",
+   "https://kazandelikates.tatar/horeca-produkty-pitaniya",
+   "https://kazandelikates.tatar/"
+  ]
+ },
+ {
+  "name": "Unagrande (Умалат)",
+  "country": "RU",
+  "city": "Брянск",
+  "website": "https://umalat.ru/",
+  "phone": "+7 (777) 151-13-33",
+  "email": "Alexander.Akimov@unagrande.com",
+  "tax_id": "3249004697",
+  "categories": [
+   "dairy"
+  ],
+  "products": "Свежие сыры: моцарелла, рикотта, маскарпоне, страчателла для HoReCa",
+  "delivery_regions": [
+   "Брянск"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://umalat.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://umalat.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://umalat.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://umalat.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://unagrande.company",
+   "https://unagrande.company/contacts/",
+   "https://unagrande.company/about/",
+   "https://unagrande.company/certificates/"
+  ]
+ },
+ {
+  "name": "Хохланд Руссланд",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://hochland.ru/",
+  "phone": "+7 800 500 13 03",
+  "email": "S@O9.0",
+  "tax_id": null,
+  "categories": [
+   "dairy"
+  ],
+  "products": "Плавленые, творожные и полутвёрдые сыры, в т.ч. фасовки для общепита",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Декларации ЕАЭС"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://hochland.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://hochland.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://hochland.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://hochland.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://hochland.ru/",
+   "https://hochland.ru/about-brand/",
+   "https://hochland.ru/about/",
+   "https://hochland.ru/contacts/"
+  ]
+ },
+ {
+  "name": "Мос-Милк",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://mos-milk.ru/",
+  "phone": "+7 (495) 108-30-28",
+  "email": "info@mos-milk.ru",
+  "tax_id": "5038128143",
+  "categories": [
+   "dairy"
+  ],
+  "products": "Молоко, сливки, сыр для HoReCa оптом и мелким оптом",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Москва, МО и вся Россия",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://mos-milk.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://mos-milk.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://mos-milk.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://mos-milk.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://mos-milk.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://mos-milk.ru/",
+   "https://mos-milk.ru/catalog/horeca",
+   "https://mos-milk.ru/catalog/toptyzhka",
+   "https://mos-milk.ru/delivery-payment"
+  ]
+ },
+ {
+  "name": "«МИЛКОМ»",
+  "country": "RU",
+  "city": "Ижевск",
+  "website": "https://milkom-komos.ru/",
+  "phone": "+7 (912) 445-29-57",
+  "email": "SHaronovaVV@ces-komos.ru",
+  "tax_id": "1834100340",
+  "categories": [
+   "dairy"
+  ],
+  "products": "Молочные продукты от производителя: молоко, сыр, сливки, творог",
+  "delivery_regions": [
+   "Ижевск",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Прямые поставки с завода",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "ХАССП",
+   "Декларации ЕАЭС"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://milkom-komos.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://milkom-komos.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://milkom-komos.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://milkom-komos.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://milkom-komos.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://milkom-komos.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://www.milkom-komos.ru/",
+   "https://www.milkom-komos.ru/about/",
+   "https://www.milkom-komos.ru/about/structure/",
+   "https://www.milkom-komos.ru/about/manufacturing/"
+  ]
+ },
+ {
+  "name": "Смоленский сыровар",
+  "country": "RU",
+  "city": "Смоленск",
+  "website": "https://smolsyrovar.ru/",
+  "phone": "+7 (900) 223-36-60",
+  "email": "smolsyrovar@mail.ru",
+  "tax_id": "470315928060",
+  "categories": [
+   "dairy"
+  ],
+  "products": "Сыры и молочная продукция для сетей, ресторанов и дистрибьюторов",
+  "delivery_regions": [
+   "Смоленск"
+  ],
+  "delivery_terms": "Минимальный заказ от 20 кг",
+  "moq_value": 20,
+  "moq_unit": "кг",
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Меркурий",
+   "Декларации ЕАЭС"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://smolsyrovar.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://smolsyrovar.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://smolsyrovar.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://smolsyrovar.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://smolsyrovar.ru/",
+    "date": "2026-10-20"
+   },
+   "moq_value": {
+    "site": "https://smolsyrovar.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://smolsyrovar.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://smolsyrovar.ru/",
+   "https://smolsyrovar.ru/#rec2281451061"
+  ]
+ },
+ {
+  "name": "Компания «Молоко»",
+  "country": "RU",
+  "city": "Санкт-Петербург",
+  "website": "https://moloko.group/",
+  "phone": "8 800-300-78-58",
+  "email": "info@moloko.group",
+  "tax_id": "7840006106",
+  "categories": [
+   "dairy"
+  ],
+  "products": "Сыр, сливочное масло, сухое молоко, сухие сливки оптом",
+  "delivery_regions": [
+   "СПб и ЛО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Доставка по России",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Декларации ЕАЭС"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://moloko.group/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://moloko.group/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://moloko.group/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://moloko.group/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://moloko.group/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://moloko.group/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://moloko.group/",
+   "https://moloko.group/o-kompanii/",
+   "https://moloko.group/kontaktyi/"
+  ]
+ },
+ {
+  "name": "Инфреш",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://infresh.ru/",
+  "phone": "+7 (495) 204-30-10",
+  "email": "info@infresh.ru",
+  "tax_id": null,
+  "categories": [
+   "veg"
+  ],
+  "products": "Овощи и фрукты оптом со склада в Москве",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Доставка по Москве и России, минимальный заказ от 20 000 ₽",
+  "moq_value": 20000,
+  "moq_unit": "RUB",
+  "free_delivery_from": null,
+  "defer_days": 5,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://infresh.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://infresh.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://infresh.ru/",
+    "date": "2026-10-20"
+   },
+   "moq_value": {
+    "site": "https://infresh.ru/",
+    "date": "2026-10-20"
+   },
+   "defer_days": {
+    "site": "https://infresh.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://infresh.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://infresh.ru/",
+   "https://infresh.ru/usloviya-dostavki/",
+   "https://infresh.ru/sotrudnichestvo/",
+   "https://infresh.ru/o-kompanii/"
+  ]
+ },
+ {
+  "name": "FoodDesk",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://fooddesk.ru/",
+  "phone": "+7 495 777 9584",
+  "email": "zakaz@fooddesk.ru",
+  "tax_id": null,
+  "categories": [
+   "veg"
+  ],
+  "products": "Овощи и фрукты оптом для ресторанов и магазинов со склада в Москве",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": "Бесплатная доставка, отсрочка платежа",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Меркурий"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://fooddesk.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://fooddesk.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://fooddesk.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://fooddesk.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://fooddesk.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://fooddesk.ru/",
+   "https://fooddesk.ru/ovoshnaya_baza",
+   "https://fooddesk.ru/balashikhinskaya",
+   "https://fooddesk.ru/baza_optovih"
+  ]
+ },
+ {
+  "name": "EvroFresh",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://evrofresh.ru/",
+  "phone": "+7 (495) 128-0083",
+  "email": "info@evrofresh.ru",
+  "tax_id": null,
+  "categories": [
+   "veg"
+  ],
+  "products": "Овощи и фрукты оптом, официальный поставщик Фуд Сити",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://evrofresh.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://evrofresh.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://evrofresh.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://evrofresh.ru/",
+   "https://evrofresh.ru/product-rest",
+   "https://evrofresh.ru/optovie_post",
+   "https://evrofresh.ru/base"
+  ]
+ },
+ {
+  "name": "Фруктово-овощная база «Гермес»",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://germesfruit.ru/",
+  "phone": "+7 (925) 226-76-50",
+  "email": "germestorg2023@gmail.com",
+  "tax_id": null,
+  "categories": [
+   "veg"
+  ],
+  "products": "Свежие фрукты и овощи оптом",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Декларации ЕАЭС"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://germesfruit.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://germesfruit.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://germesfruit.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://germesfruit.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://germesfruit.ru/"
+  ]
+ },
+ {
+  "name": "ООО «Небус»",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://nebus.pro/",
+  "phone": "+7 (967) 093-22-08",
+  "email": null,
+  "tax_id": "9727095202",
+  "categories": [
+   "veg"
+  ],
+  "products": "Свежие овощи и фрукты для бизнеса",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://nebus.pro/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://nebus.pro/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://nebus.pro/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://nebus.pro/",
+   "https://nebus.pro/about.html",
+   "https://nebus.pro/contacts.html"
+  ]
+ },
+ {
+  "name": "Росфрукт",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://rosfrukt.ru/",
+  "phone": "+7 (495) 1277889",
+  "email": "info@rosfrukt.ru",
+  "tax_id": null,
+  "categories": [
+   "veg",
+   "broadline"
+  ],
+  "products": "Овощи, фрукты и продукты питания с оптовой базы Фуд Сити",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Доставка по Москве и МО",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Меркурий"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://rosfrukt.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://rosfrukt.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://rosfrukt.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://rosfrukt.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://rosfrukt.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://rosfrukt.ru/",
+   "https://rosfrukt.ru/contacts",
+   "https://rosfrukt.ru/optom_msk",
+   "https://rosfrukt.ru/optom_dostavka"
+  ]
+ },
+ {
+  "name": "Агрокластер «Фуд Сити»",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://foodcity.ru/",
+  "phone": "+7 (495) 223-61-23",
+  "email": "arenda@foodcity.ru",
+  "tax_id": null,
+  "categories": [
+   "veg",
+   "broadline"
+  ],
+  "products": "Площадка: сотни оптовых продавцов овощей, фруктов, мяса и бакалеи на одной территории",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": "Самовывоз / доставка арендаторов",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Меркурий"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://foodcity.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://foodcity.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://foodcity.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://foodcity.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://foodcity.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://foodcity.ru/",
+   "https://foodcity.ru/contacts#parking",
+   "https://foodcity.ru/contacts#commute",
+   "https://foodcity.ru/about"
+  ]
+ },
+ {
+  "name": "Fresh NAR",
+  "country": "RU",
+  "city": "Санкт-Петербург",
+  "website": "https://fresh-nar.ru/",
+  "phone": "+7 931 340 40 30",
+  "email": "ooonar.spb@gmail.com",
+  "tax_id": "9500032825",
+  "categories": [
+   "veg"
+  ],
+  "products": "Свежие и очищенные овощи, фрукты, зелень; вакуумирование",
+  "delivery_regions": [
+   "СПб и ЛО"
+  ],
+  "delivery_terms": "Доставка 24/7, срочные заказы; бесплатно от 15 000 ₽",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": 15000,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://fresh-nar.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://fresh-nar.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://fresh-nar.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://fresh-nar.ru/",
+    "date": "2026-10-20"
+   },
+   "free_delivery_from": {
+    "site": "https://fresh-nar.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://fresh-nar.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://fresh-nar.ru/",
+   "https://fresh-nar.ru/#o-kompanii",
+   "https://fresh-nar.ru/#kontakty",
+   "https://fresh-nar.ru/#popup:price"
+  ]
+ },
+ {
+  "name": "БиФреш",
+  "country": "RU",
+  "city": "Санкт-Петербург",
+  "website": "https://befreshopt.ru/",
+  "phone": "+7 (812) 409-45-66",
+  "email": "info@befreshopt.ru",
+  "tax_id": "7838104160",
+  "categories": [
+   "veg"
+  ],
+  "products": "Овощи, фрукты, орехи и сухофрукты от производителей",
+  "delivery_regions": [
+   "СПб и ЛО"
+  ],
+  "delivery_terms": "Доставка по СПб и ЛО, минимальный заказ 5 000 ₽",
+  "moq_value": 5000,
+  "moq_unit": "RUB",
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://befreshopt.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://befreshopt.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://befreshopt.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://befreshopt.ru/",
+    "date": "2026-10-20"
+   },
+   "moq_value": {
+    "site": "https://befreshopt.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://befreshopt.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://befreshopt.ru/",
+   "https://befreshopt.ru/horeca",
+   "https://befreshopt.ru/dostavka",
+   "https://befreshopt.ru/okompanii"
+  ]
+ },
+ {
+  "name": "МАКФА",
+  "country": "RU",
+  "city": "Челябинск",
+  "website": "https://makfa.ru/",
+  "phone": "+7 (351) 214-47-71",
+  "email": "a.boykov@makfa.ru",
+  "tax_id": "7438015885",
+  "categories": [
+   "grocery"
+  ],
+  "products": "Макаронные изделия, крупы, мука, хлопья",
+  "delivery_regions": [
+   "Челябинск",
+   "Вся Россия"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Декларации ЕАЭС"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://makfa.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://makfa.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://makfa.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://makfa.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://makfa.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://www.makfa.ru/",
+   "https://www.makfa.ru/partners/",
+   "https://www.makfa.ru/contacts/",
+   "https://www.makfa.ru/about/"
+  ]
+ },
+ {
+  "name": "Мистраль Трейдинг",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://mistral.ru/",
+  "phone": "+7 495 741-78-88",
+  "email": null,
+  "tax_id": null,
+  "categories": [
+   "grocery"
+  ],
+  "products": "Крупы, рис (в т.ч. для суши), бобовые",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://mistral.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://mistral.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://mistral.ru/",
+   "https://mistral.ru/contact/"
+  ]
+ },
+ {
+  "name": "Махеевъ (АО «Эссен Продакшн АГ»)",
+  "country": "RU",
+  "city": "Казань",
+  "website": "https://maheev.ru/",
+  "phone": "+7 (383) 307-12-07",
+  "email": "adelya@maheev.ru",
+  "tax_id": null,
+  "categories": [
+   "sauces"
+  ],
+  "products": "Майонез, кетчуп, соусы, 350+ позиций",
+  "delivery_regions": [
+   "Казань",
+   "Вся Россия"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "ХАССП",
+   "ISO 22000",
+   "Халал"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://maheev.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://maheev.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://maheev.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://maheev.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://maheev.ru/",
+   "https://maheev.ru/contacts/?contacts=feedback",
+   "https://maheev.ru/about-us/",
+   "https://maheev.ru/about-us/pressa.php"
+  ]
+ },
+ {
+  "name": "Mr.Ricco (Казанский жировой комбинат)",
+  "country": "RU",
+  "city": "Казань",
+  "website": "https://mrricco.ru/",
+  "phone": "8(917)8602639",
+  "email": "fahrutdinov.rr@aokgk.ru",
+  "tax_id": null,
+  "categories": [
+   "sauces"
+  ],
+  "products": "Майонезы и соусы",
+  "delivery_regions": [
+   "Казань"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://mrricco.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://mrricco.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://mrricco.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://mrricco.ru/",
+   "https://mrricco.ru/company/about",
+   "https://mrricco.ru/company/production",
+   "https://mrricco.ru/company/partners"
+  ]
+ },
+ {
+  "name": "Tatspise",
+  "country": "RU",
+  "city": "Казань",
+  "website": "https://tatspise.ru/",
+  "phone": "+7 (843) 240-93-93",
+  "email": "buh@tatspise.ru",
+  "tax_id": null,
+  "categories": [
+   "grocery",
+   "sauces"
+  ],
+  "products": "Специи, крупы, сахар, бакалея от производителей",
+  "delivery_regions": [
+   "Казань"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Халал"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://tatspise.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://tatspise.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://tatspise.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://tatspise.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://tatspise.ru/",
+   "https://tatspise.ru/kontakty/",
+   "https://tatspise.ru/dolina-izobiliya/"
+  ]
+ },
+ {
+  "name": "Талосто",
+  "country": "RU",
+  "city": "Санкт-Петербург",
+  "website": "https://talosto.ru/",
+  "phone": "+7 (812) 327 66 11",
+  "email": "spb@talosto.ru",
+  "tax_id": null,
+  "categories": [
+   "frozen",
+   "bakery"
+  ],
+  "products": "Замороженное тесто и мороженое",
+  "delivery_regions": [
+   "СПб и ЛО"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://talosto.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://talosto.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://talosto.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://www.talosto.ru/",
+   "https://www.talosto.ru/#contacts",
+   "https://www.talosto.ru/#about",
+   "https://www.talosto.ru/#rec1238433556"
+  ]
+ },
+ {
+  "name": "Компания «ЮЖ»",
+  "country": "RU",
+  "city": "Электроугли",
+  "website": "https://yuzh-group.com/",
+  "phone": "+7 (495) 545-58-99",
+  "email": "info@yuzh-group.com",
+  "tax_id": null,
+  "categories": [
+   "frozen",
+   "veg"
+  ],
+  "products": "Замороженные ягоды, фрукты, овощные смеси, грибы, готовые блюда",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Доставка по России и СНГ, отгрузка 24/7",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://yuzh-group.com/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://yuzh-group.com/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://yuzh-group.com/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://yuzh-group.com/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://yuzh-group.com/",
+   "https://yuzh-group.com/about/",
+   "https://yuzh-group.com/cooperation/",
+   "https://yuzh-group.com/contacts/"
+  ]
+ },
+ {
+  "name": "ЭКОПАК (Ecopack Group)",
+  "country": "RU",
+  "city": "Шахты",
+  "website": "https://ecopack-group.ru/",
+  "phone": "+7 (905) 724-28-36",
+  "email": "info@ecopack-group.ru",
+  "tax_id": null,
+  "categories": [
+   "packaging"
+  ],
+  "products": "Контейнеры и упаковка для доставки еды, брендирование",
+  "delivery_regions": [
+   "Шахты",
+   "Вся Россия",
+   "Москва и МО"
+  ],
+  "delivery_terms": "Минимальный заказ 5 000 ₽, бесплатная доставка от 15 000 ₽",
+  "moq_value": 5000,
+  "moq_unit": "RUB",
+  "free_delivery_from": 15000,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://ecopack-group.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://ecopack-group.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://ecopack-group.ru/",
+    "date": "2026-10-20"
+   },
+   "moq_value": {
+    "site": "https://ecopack-group.ru/",
+    "date": "2026-10-20"
+   },
+   "free_delivery_from": {
+    "site": "https://ecopack-group.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://ecopack-group.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://ecopack-group.ru/",
+   "https://ecopack-group.ru/contacts/",
+   "https://ecopack-group.ru/payment/",
+   "https://ecopack-group.ru/delivery/"
+  ]
+ },
+ {
+  "name": "OSQ Group",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://osqgroup.ru/",
+  "phone": "+7 (343) 272-92-78",
+  "email": "clients@osqgroup.ru",
+  "tax_id": "7734420298",
+  "categories": [
+   "packaging"
+  ],
+  "products": "Картонные контейнеры для супа и салата, упаковка для фастфуда и кондитерских, индивидуальный дизайн",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "ISO 22000",
+   "Меркурий"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://osqgroup.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://osqgroup.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://osqgroup.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://osqgroup.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://osqgroup.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://osqgroup.ru/",
+   "https://osqgroup.ru/about/",
+   "https://osqgroup.ru/contacts/",
+   "https://osqgroup.ru/about/delivery/"
+  ]
+ },
+ {
+  "name": "Трейдпак",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://tradepak.ru/",
+  "phone": null,
+  "email": "cherepanov@tradepak.ru",
+  "tax_id": "7702748230",
+  "categories": [
+   "packaging"
+  ],
+  "products": "Бумажная упаковка для доставки еды, собственное производство",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Доставка по всей России, самовывоз",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "email": {
+    "site": "https://tradepak.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://tradepak.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://tradepak.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://tradepak.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://tradepak.ru/",
+   "https://tradepak.ru/dostavka/",
+   "https://tradepak.ru/o-kompanii/",
+   "https://tradepak.ru/o-kompanii/politika-raboty-s-personalom/"
+  ]
+ },
+ {
+  "name": "NTL Packing",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://ntlpacking.ru/",
+  "phone": "+7 (495) 485 22 31",
+  "email": "main@ntl.spb.ru",
+  "tax_id": null,
+  "categories": [
+   "packaging"
+  ],
+  "products": "Упаковка оптом от производителя",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Доставка по России",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://ntlpacking.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://ntlpacking.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://ntlpacking.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://ntlpacking.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://ntlpacking.ru/",
+   "https://ntlpacking.ru/o-companii/",
+   "https://ntlpacking.ru/kontacti/",
+   "https://ntlpacking.ru/o-companii"
+  ]
+ },
+ {
+  "name": "Green Boom",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://green-boom.ru/",
+  "phone": "+7 (800) 775-48-31",
+  "email": "info@green-boom.ru",
+  "tax_id": null,
+  "categories": [
+   "packaging"
+  ],
+  "products": "Эко-упаковка для еды: крафтовые коробки, картонная одноразовая упаковка",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Бесплатная доставка от 15 000 ₽",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": 15000,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://green-boom.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://green-boom.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://green-boom.ru/",
+    "date": "2026-10-20"
+   },
+   "free_delivery_from": {
+    "site": "https://green-boom.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://green-boom.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://green-boom.ru/",
+   "https://green-boom.ru/product-category/upakovka-dlya-dostavki-edy/",
+   "https://green-boom.ru/o-kompanii/",
+   "https://green-boom.ru/about-us-3/"
+  ]
+ },
+ {
+  "name": "ALLBOX",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://allbox.ru/",
+  "phone": "+7 499 110-71-72",
+  "email": "info@allbox.ru",
+  "tax_id": "7701747153",
+  "categories": [
+   "packaging"
+  ],
+  "products": "Картонные коробки на заказ и оптом",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://allbox.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://allbox.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://allbox.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://allbox.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://allbox.ru/",
+   "https://allbox.ru/kontakty/",
+   "https://allbox.ru/oplata-i-dostavka/",
+   "https://allbox.ru/photoalbom/ofsetnaya-pechat-na-upakovke/konvert-dlya-brenda-enot-dostavlyaet/"
+  ]
+ },
+ {
+  "name": "Пакград",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://pakgrad.ru/",
+  "phone": "+7 (495) 255-00-85",
+  "email": "buh@pakgrad.ru",
+  "tax_id": "7724884572",
+  "categories": [
+   "packaging"
+  ],
+  "products": "Упаковка для пищевой продукции",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://pakgrad.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://pakgrad.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://pakgrad.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://pakgrad.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://pakgrad.ru/",
+   "https://pakgrad.ru/cat/upakovka/",
+   "https://pakgrad.ru/kontaktyi/",
+   "https://pakgrad.ru/about/"
+  ]
+ },
+ {
+  "name": "GEOVITA",
+  "country": "RU",
+  "city": "Санкт-Петербург",
+  "website": "https://geo-vita.com/",
+  "phone": "+7 (495) 134 42 62",
+  "email": "promo@geo-vita.com",
+  "tax_id": "7811568527",
+  "categories": [
+   "packaging"
+  ],
+  "products": "Эко- и био-посуда, одноразовая упаковка, нанесение логотипа",
+  "delivery_regions": [
+   "СПб и ЛО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Минимальная сумма 10 000 ₽, доставка по России",
+  "moq_value": 10000,
+  "moq_unit": "RUB",
+  "free_delivery_from": 30000,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://geo-vita.com/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://geo-vita.com/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://geo-vita.com/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://geo-vita.com/",
+    "date": "2026-10-20"
+   },
+   "moq_value": {
+    "site": "https://geo-vita.com/",
+    "date": "2026-10-20"
+   },
+   "free_delivery_from": {
+    "site": "https://geo-vita.com/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://geo-vita.com/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://geo-vita.com/",
+   "https://geo-vita.com/o-kompanii/",
+   "https://geo-vita.com/dostavka/",
+   "https://geo-vita.com/payment/"
+  ]
+ },
+ {
+  "name": "УпаковкаТорг",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://upakovkatorg.ru/",
+  "phone": "+7 (301) 237-98-12",
+  "email": "astrahan@upakovkatorg.ru",
+  "tax_id": null,
+  "categories": [
+   "packaging"
+  ],
+  "products": "Пластиковые контейнеры (в т.ч. для суши), картонные коробки",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Минимальная партия контейнеров для суши 1 000 шт",
+  "moq_value": 1000,
+  "moq_unit": "шт",
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://upakovkatorg.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://upakovkatorg.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://upakovkatorg.ru/",
+    "date": "2026-10-20"
+   },
+   "moq_value": {
+    "site": "https://upakovkatorg.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://upakovkatorg.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://upakovkatorg.ru/",
+   "https://upakovkatorg.ru/oplata",
+   "https://upakovkatorg.ru/informatsija-o-dostavke",
+   "https://upakovkatorg.ru/o-nas"
+  ]
+ },
+ {
+  "name": "АйПиДжи",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://ipg-upakovka.ru/",
+  "phone": "+7 495 122 22 72",
+  "email": "info@ipg-upakovka.ru",
+  "tax_id": null,
+  "categories": [
+   "packaging"
+  ],
+  "products": "Одноразовая пищевая упаковка и посуда, собственное производство",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://ipg-upakovka.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://ipg-upakovka.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://ipg-upakovka.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://ipg-upakovka.ru/",
+   "https://ipg-upakovka.ru/dostavka",
+   "https://ipg-upakovka.ru/kontaktnaya-informaciya",
+   "https://ipg-upakovka.ru/kontaktnaya_informaciya"
+  ]
+ },
+ {
+  "name": "Одноразка",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://odnorazka.ru/",
+  "phone": "+7 (495) 664-57-80",
+  "email": null,
+  "tax_id": null,
+  "categories": [
+   "packaging"
+  ],
+  "products": "Одноразовая посуда и упаковка оптом",
+  "delivery_regions": [
+   "Москва и МО",
+   "Вся Россия"
+  ],
+  "delivery_terms": "Склад в Москве, доставка по России",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://odnorazka.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://odnorazka.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://odnorazka.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://www.odnorazka.ru/",
+   "https://www.odnorazka.ru/about/",
+   "https://www.odnorazka.ru/dostavka/",
+   "https://www.odnorazka.ru/oplata/"
+  ]
+ },
+ {
+  "name": "PACK MARKET",
+  "country": "RU",
+  "city": "Москва",
+  "website": "https://packmarket.ru/",
+  "phone": "+7 (495) 165-75-79",
+  "email": "zakaz@packmarket.ru",
+  "tax_id": "7743258130",
+  "categories": [
+   "packaging"
+  ],
+  "products": "Картонные коробки и упаковочные материалы, собственное производство",
+  "delivery_regions": [
+   "Москва и МО"
+  ],
+  "delivery_terms": "Самовывоз в Москве и Казани, доставка по РФ",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Декларации ЕАЭС"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://packmarket.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://packmarket.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://packmarket.ru/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://packmarket.ru/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://packmarket.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://packmarket.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://packmarket.ru/",
+   "https://packmarket.ru/company/",
+   "https://packmarket.ru/partnery/",
+   "https://packmarket.ru/company/news/"
+  ]
+ },
+ {
+  "name": "Vikont",
+  "country": "RU",
+  "city": "Санкт-Петербург",
+  "website": "https://vikontpro.ru/",
+  "phone": "+7 (862) 291-88-50",
+  "email": "dan@vikontpro.ru",
+  "tax_id": "7825706618",
+  "categories": [
+   "packaging"
+  ],
+  "products": "Одноразовая посуда, профессиональная химия, гигиена",
+  "delivery_regions": [
+   "СПб и ЛО",
+   "Вся Россия"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://vikontpro.ru/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://vikontpro.ru/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://vikontpro.ru/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://vikontpro.ru/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://vikontpro.ru/",
+   "https://vikontpro.ru/about/",
+   "https://vikontpro.ru/payment/",
+   "https://vikontpro.ru/delivery/"
+  ]
+ },
+ {
+  "name": "SapaFood",
+  "country": "KZ",
+  "city": "Алматы",
+  "website": "https://sapafood.kz/",
+  "phone": "+7 (747) 645-40-14",
+  "email": "sapafood.kaz@gmail.com",
+  "tax_id": null,
+  "categories": [
+   "broadline"
+  ],
+  "products": "Продукты питания для ресторанов и кафе",
+  "delivery_regions": [
+   "Алматы"
+  ],
+  "delivery_terms": "Бесплатная доставка, минимальная сумма заказа 30 000 ₸",
+  "moq_value": 30000,
+  "moq_unit": "KZT",
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://sapafood.kz/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://sapafood.kz/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://sapafood.kz/",
+    "date": "2026-10-20"
+   },
+   "moq_value": {
+    "site": "https://sapafood.kz/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://sapafood.kz/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://sapafood.kz/",
+   "https://sapafood.kz/#rec1859409623"
+  ]
+ },
+ {
+  "name": "HorecaExpert",
+  "country": "KZ",
+  "city": "Алматы",
+  "website": "https://horecaexpert.kz/",
+  "phone": "+7 (727) 123-45-67",
+  "email": "info@horecaexpert.kz",
+  "tax_id": null,
+  "categories": [
+   "dairy",
+   "sauces",
+   "broadline"
+  ],
+  "products": "Кофе, сливки, сыры, соусы; прямые контракты с производителями",
+  "delivery_regions": [
+   "Алматы"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://horecaexpert.kz/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://horecaexpert.kz/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://horecaexpert.kz/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://horecaexpert.kz/ru",
+   "https://horecaexpert.kz/ru#about",
+   "https://horecaexpert.kz/ru#contacts"
+  ]
+ },
+ {
+  "name": "HoReCa24",
+  "country": "KZ",
+  "city": "Алматы",
+  "website": "https://horeca24.kz/",
+  "phone": "+7 (700) 730-48-38",
+  "email": "info@horeca24.kz",
+  "tax_id": null,
+  "categories": [
+   "broadline",
+   "packaging"
+  ],
+  "products": "Товары и продукты для кафе и ресторанов",
+  "delivery_regions": [
+   "Алматы"
+  ],
+  "delivery_terms": "Доставка по Алматы",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://horeca24.kz/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://horeca24.kz/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://horeca24.kz/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://horeca24.kz/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://horeca24.kz/",
+   "https://horeca24.kz/o-kompanii",
+   "https://horeca24.kz/oplata",
+   "https://horeca24.kz/dostavka"
+  ]
+ },
+ {
+  "name": "ABALI group",
+  "country": "KZ",
+  "city": "Алматы",
+  "website": "https://abaligroup.kz/",
+  "phone": null,
+  "email": null,
+  "tax_id": null,
+  "categories": [
+   "veg",
+   "broadline"
+  ],
+  "products": "Свежие продукты для кафе, ресторанов и отелей, персональный менеджер",
+  "delivery_regions": [
+   "Алматы"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "categories": {
+    "site": "https://abaligroup.kz/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://abaligroup.kz/"
+  ]
+ },
+ {
+  "name": "Bazarjoq",
+  "country": "KZ",
+  "city": "Алматы",
+  "website": "https://bazarjoq.kz/",
+  "phone": "+7 (708) 945-07-30",
+  "email": "info@bazarjoq.kz",
+  "tax_id": null,
+  "categories": [
+   "broadline",
+   "veg"
+  ],
+  "products": "Поставка продуктов оптом для кафе, магазинов, ресторанов, гостиниц",
+  "delivery_regions": [
+   "Алматы"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://bazarjoq.kz/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://bazarjoq.kz/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://bazarjoq.kz/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://bazarjoq.kz/",
+   "https://bazarjoq.kz/#contact",
+   "https://bazarjoq.kz/#delivery"
+  ]
+ },
+ {
+  "name": "Upack.kz",
+  "country": "KZ",
+  "city": "Алматы",
+  "website": "https://upack.kz/",
+  "phone": "+7 (747) 094 22 01",
+  "email": "info@ddwshop.kz",
+  "tax_id": "590730301484",
+  "categories": [
+   "packaging"
+  ],
+  "products": "Одноразовая посуда, пластиковые контейнеры, барные аксессуары",
+  "delivery_regions": [
+   "Алматы",
+   "Казахстан"
+  ],
+  "delivery_terms": "Доставка по Казахстану",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://upack.kz/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://upack.kz/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://upack.kz/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://upack.kz/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://upack.kz/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://upack.kz/",
+   "https://upack.kz/about-us",
+   "https://upack.kz/delivery",
+   "https://upack.kz/requisites"
+  ]
+ },
+ {
+  "name": "Kazdi-Group",
+  "country": "KZ",
+  "city": "Алматы",
+  "website": "https://kazdi-group.kz/",
+  "phone": "+7 (701) 322-92-80",
+  "email": "niyazov_tahir@mail.ru",
+  "tax_id": null,
+  "categories": [
+   "packaging"
+  ],
+  "products": "Бумажная продукция и одноразовая упаковка, собственное производство",
+  "delivery_regions": [
+   "Алматы"
+  ],
+  "delivery_terms": "Минимальный заказ от 2 000 кг",
+  "moq_value": 2000,
+  "moq_unit": "кг",
+  "free_delivery_from": 50000,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://kazdi-group.kz/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://kazdi-group.kz/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://kazdi-group.kz/",
+    "date": "2026-10-20"
+   },
+   "moq_value": {
+    "site": "https://kazdi-group.kz/",
+    "date": "2026-10-20"
+   },
+   "free_delivery_from": {
+    "site": "https://kazdi-group.kz/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://kazdi-group.kz/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://kazdi-group.kz/",
+   "https://kazdi-group.kz/o-kompanii",
+   "https://kazdi-group.kz/oplata-i-dostavka",
+   "https://kazdi-group.kz/kontakty"
+  ]
+ },
+ {
+  "name": "Jaqsi Meat",
+  "country": "KZ",
+  "city": "Алматы",
+  "website": "https://jaqsimeat.kz/",
+  "phone": "+7 775 501 13 72",
+  "email": "partners@jaqsimeat.kz",
+  "tax_id": null,
+  "categories": [
+   "meat"
+  ],
+  "products": "Халяльные мясные деликатесы: пастрами, бекон из говядины и индейки",
+  "delivery_regions": [
+   "Алматы",
+   "Казахстан"
+  ],
+  "delivery_terms": "Доставка по Алматы, Астане и Казахстану",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://jaqsimeat.kz/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://jaqsimeat.kz/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://jaqsimeat.kz/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://jaqsimeat.kz/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://jaqsimeat.kz/",
+   "https://jaqsimeat.kz/about",
+   "https://jaqsimeat.kz/delivery"
+  ]
+ },
+ {
+  "name": "FOODMASTER",
+  "country": "KZ",
+  "city": "Алматы",
+  "website": "https://foodmaster.kz/",
+  "phone": "8 (727) 244 60 00",
+  "email": "info@foodmaster.kz",
+  "tax_id": null,
+  "categories": [
+   "dairy"
+  ],
+  "products": "Молочная продукция: молоко, кефир, йогурты, сливочное масло",
+  "delivery_regions": [
+   "Алматы"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://foodmaster.kz/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://foodmaster.kz/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://foodmaster.kz/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://foodmaster.kz/ru/",
+   "https://foodmaster.kz/ru/contacts"
+  ]
+ },
+ {
+  "name": "КТ «Зенченко и Компания»",
+  "country": "KZ",
+  "city": "Петропавловск",
+  "website": "https://zenchenko.kz/",
+  "phone": null,
+  "email": "info@zenchenko.kz",
+  "tax_id": "920440000253",
+  "categories": [
+   "dairy"
+  ],
+  "products": "Молочная продукция, агрохолдинг полного цикла",
+  "delivery_regions": [
+   "Петропавловск"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "email": {
+    "site": "https://zenchenko.kz/",
+    "date": "2026-10-20"
+   },
+   "tax_id": {
+    "site": "https://zenchenko.kz/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://zenchenko.kz/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://zenchenko.kz/",
+   "https://zenchenko.kz/",
+   "https://zenchenko.kz/kontakty"
+  ]
+ },
+ {
+  "name": "Kublei",
+  "country": "KZ",
+  "city": "Уральск",
+  "website": "https://kublei.kz/",
+  "phone": "+7 (705)7464399",
+  "email": "1016@anvar.kz",
+  "tax_id": null,
+  "categories": [
+   "meat"
+  ],
+  "products": "Мясная продукция, халал; филиалы в городах Казахстана",
+  "delivery_regions": [
+   "Уральск"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "Халал"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://kublei.kz/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://kublei.kz/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://kublei.kz/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://kublei.kz/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://kublei.kz/",
+   "https://kublei.kz/o-kompanii/",
+   "https://kublei.kz/kontakty/"
+  ]
+ },
+ {
+  "name": "АО «ЛОТТЕ Рахат»",
+  "country": "KZ",
+  "city": "Алматы",
+  "website": "https://rakhat.kz/",
+  "phone": "+7 (711) 333-21-26",
+  "email": "89266431811@mail.ru",
+  "tax_id": null,
+  "categories": [
+   "bakery"
+  ],
+  "products": "Кондитерские изделия оптом",
+  "delivery_regions": [
+   "Алматы"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "ХАССП",
+   "Декларации ЕАЭС",
+   "Халал"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://rakhat.kz/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://rakhat.kz/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://rakhat.kz/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://rakhat.kz/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://www.rakhat.kz/",
+   "https://www.rakhat.kz/",
+   "https://www.rakhat.kz/o-kompanii/",
+   "https://www.rakhat.kz/our-addresses/company-stores/"
+  ]
+ },
+ {
+  "name": "АО «Баян Сулу»",
+  "country": "KZ",
+  "city": "Костанай",
+  "website": "https://bayansulu.kz/",
+  "phone": "8943 9941246",
+  "email": "bayansulu@bayansulu.kz",
+  "tax_id": null,
+  "categories": [
+   "bakery"
+  ],
+  "products": "Кондитерские изделия",
+  "delivery_regions": [
+   "Костанай"
+  ],
+  "delivery_terms": null,
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [
+   "ISO 22000",
+   "Халал"
+  ],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://bayansulu.kz/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://bayansulu.kz/",
+    "date": "2026-10-20"
+   },
+   "certificates": {
+    "site": "https://bayansulu.kz/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://bayansulu.kz/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://bayansulu.kz/",
+   "https://bayansulu.kz/about_us/o-kompanii/",
+   "https://bayansulu.kz/partners/azerbaydzhan/",
+   "https://bayansulu.kz/contacts/"
+  ]
+ },
+ {
+  "name": "Shin Line",
+  "country": "KZ",
+  "city": "Алматы",
+  "website": "https://shin-line.kz/",
+  "phone": "+7 705 134 26 84",
+  "email": "hello@shin-line.com",
+  "tax_id": null,
+  "categories": [
+   "frozen"
+  ],
+  "products": "Мороженое оптом",
+  "delivery_regions": [
+   "Алматы",
+   "Казахстан"
+  ],
+  "delivery_terms": "Доставка по Казахстану, России и СНГ",
+  "moq_value": null,
+  "moq_unit": null,
+  "free_delivery_from": null,
+  "defer_days": null,
+  "certificates": [],
+  "price_info": null,
+  "origin": "seed",
+  "provenance": {
+   "phone": {
+    "site": "https://shin-line.kz/",
+    "date": "2026-10-20"
+   },
+   "email": {
+    "site": "https://shin-line.kz/",
+    "date": "2026-10-20"
+   },
+   "delivery_terms": {
+    "site": "https://shin-line.kz/",
+    "date": "2026-10-20"
+   },
+   "categories": {
+    "site": "https://shin-line.kz/",
+    "date": "2026-10-20",
+    "note": "категории размечены вручную по сайту"
+   }
+  },
+  "source_pages": [
+   "https://shin-line.kz/en/",
+   "https://shin-line.kz/en/company/",
+   "https://shin-line.kz/en/contacts/",
+   "https://shin-line.kz/en/news/shinlayn-i-upravlenie-obrazovaniya-almaty-podpisali-memorandum-o-sotrudnichestve/"
+  ]
+ }
+]

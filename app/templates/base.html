@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Поиск поставщиков{% endblock %} · FoodSupply</title>
+<link rel="stylesheet" href="/static/theme.css">
+<link rel="stylesheet" href="/static/app.css?v=2">
+<script src="https://unpkg.com/htmx.org@2.0.3"></script>
+<script src="/static/app.js?v=2" defer></script>
+{% block head %}{% endblock %}
+</head>
+<body>
+{% set path = request.url.path %}
+<header class="top"><div class="in">
+  <a class="logo" href="/">Food<span>Supply</span></a>
+  <nav class="nav">
+    <a href="/" class="{{ 'on' if path == '/' }}">Поиск</a>
+    <a href="/agent" class="{{ 'on' if path.startswith('/agent') }}">AI-ассистент</a>
+    <a href="/live" class="{{ 'on' if path.startswith('/live') }}">Яндекс.Карты</a>
+    <a href="/add" class="{{ 'on' if path.startswith('/add') }}">Добавить</a>
+    <a href="/pipeline" class="{{ 'on' if path.startswith('/pipeline') }}">Воронка</a>
+    <a href="/about" class="{{ 'on' if path.startswith('/about') }}">Как это работает</a>
+  </nav>
+  <div class="who">
+    {% if user %}👤 {{ user }} · <a href="/logout">выйти</a>{% else %}<a href="/login?next={{ path }}">Представиться</a>{% endif %}
+  </div>
+</div></header>
+<main class="wrap">{% block content %}{% endblock %}</main>
+</body>
+</html>

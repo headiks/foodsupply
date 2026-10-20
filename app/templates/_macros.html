@@ -1,0 +1,26 @@
+{% macro score_badge(total) -%}
+<div class="score {{ 'high' if total >= 70 else 'low' if total < 50 else '' }}" title="Итоговый балл 0–100">{{ total }}</div>
+{%- endmacro %}
+
+{% macro flags(fl) -%}
+{% for color, text in fl %}<span class="flag {{ color }}">{{ text }}</span> {% endfor %}
+{%- endmacro %}
+
+{% macro breakdown(parts) -%}
+<div class="bars">
+{% for p in parts %}
+  <span>{{ p.label }} <span class="muted small">×{{ p.weight }}</span></span>
+  <div class="bar"><i style="width: {{ (p.value * 100)|round|int }}%"></i></div>
+  <span class="small">{{ (p.value * 100)|round|int }}</span>
+  <div class="why">{{ p.why }}</div>
+{% endfor %}
+</div>
+{%- endmacro %}
+
+{% macro money(v, unit) -%}
+{% if v is not none %}{{ "{:,.0f}".format(v).replace(",", " ") }} {{ {"RUB": "₽", "KZT": "₸"}.get(unit, unit or "") }}{% else %}<span class="muted">—</span>{% endif %}
+{%- endmacro %}
+
+{% macro cats(cs) -%}
+{% for c in cs %}<span class="chip">{{ CATEGORIES.get(c, c) }}</span> {% endfor %}
+{%- endmacro %}

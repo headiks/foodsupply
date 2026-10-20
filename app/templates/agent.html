@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}AI-ассистент{% endblock %}
+{% block content %}
+<h1>AI-ассистент закупщика</h1>
+<p class="muted">Опишите задачу своими словами — ассистент разберёт запрос, вызовет инструменты (поиск по базе, реестр, чтение сайтов, Яндекс.Карты) и вернёт шортлист с объяснением.
+{% if keys.llm %}Режим: LLM через OpenRouter.{% else %}Сейчас LLM не подключена — работает разбор запроса правилами (тот же поиск и скоринг).{% endif %}</p>
+<form class="card" hx-post="/agent/ask" hx-target="#out" hx-indicator="#sp">
+  <textarea name="text" required placeholder="Нужен поставщик охлаждённого лосося для 12 суши-точек в Санкт-Петербурге, около 150 кг в неделю, обязательно с Меркурием"></textarea>
+  <div class="row" style="margin-top:8px">
+    <button class="btn">Подобрать</button><span id="sp" class="spin">думаю, вызываю инструменты…</span>
+  </div>
+  <div class="row small" style="margin-top:8px">Примеры:
+    {% for ex in ["Упаковка для доставки суши, Москва, заказ около 30 тыс ₽",
+                  "Моцарелла для пиццерий в Казани, нужны документы",
+                  "Овощи и зелень для ресторанов в Алматы",
+                  "Мраморная говядина для стейк-хауса, 50 кг"] %}
+      <a href="#" onclick="this.closest('form').text.value = this.textContent; return false;">{{ ex }}</a>{{ ' ·' if not loop.last }}
+    {% endfor %}
+  </div>
+</form>
+<div id="out" style="margin-top:12px"></div>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Добавить поставщика{% endblock %}
+{% block content %}
+<h1>Добавить поставщика</h1>
+<p class="muted">Достаточно названия и сайта: сервис сам прочитает сайт (мин. заказ, доставка, документы, контакты), а по ИНН/БИН проверит компанию в реестре.</p>
+<form class="card" method="post" action="/add" style="max-width:640px">
+  <label>Название *</label><input type="text" name="name" required>
+  <div class="cols2">
+    <div><label>Сайт</label><input type="text" name="website" placeholder="example.ru"></div>
+    <div><label>ИНН / БИН</label><input type="text" name="tax_id" pattern="\d{10}|\d{12}"></div>
+    <div><label>Город</label><input type="text" name="city"></div>
+    <div><label>Страна</label><select name="country"><option value="RU">Россия</option><option value="KZ">Казахстан</option></select></div>
+  </div>
+  <label>Телефон</label><input type="text" name="phone">
+  <label>Категории</label>
+  <div class="row">{% for k, v in CATEGORIES.items() %}<label class="check"><input type="checkbox" name="categories" value="{{ k }}">{{ v }}</label>{% endfor %}</div>
+  <label class="check"><input type="checkbox" name="run_enrich" value="1" checked> Сразу прочитать сайт и заполнить поля</label>
+  <br><button class="btn">Добавить</button>
+</form>
+{% endblock %}

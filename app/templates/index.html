@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="grid">
+  <aside class="card">
+    <form id="f" hx-get="/" hx-target="#results" hx-trigger="change, keyup changed delay:500ms from:input[type=text], input changed delay:300ms from:input[type=range]" hx-push-url="true" action="/">
+      <h2>Что ищем</h2>
+      <label>Категория</label>
+      <select name="category">
+        <option value="">Любая</option>
+        {% for k, v in CATEGORIES.items() %}<option value="{{ k }}" {{ 'selected' if q.category == k }}>{{ v }}</option>{% endfor %}
+      </select>
+      <label>Товар / ключевые слова</label>
+      <input type="text" name="q" value="{{ q.text }}" placeholder="лосось, моцарелла, крафт-боксы…">
+      <label>Город доставки</label>
+      <input type="text" name="city" value="{{ q.city }}" list="cities" placeholder="Москва, Алматы…">
+      <datalist id="cities">{% for c in cities %}<option value="{{ c }}">{% endfor %}</datalist>
+      <label>Страна</label>
+      <select name="country">
+        <option value="">РФ и Казахстан</option>
+        <option value="RU" {{ 'selected' if q.country == 'RU' }}>Россия</option>
+        <option value="KZ" {{ 'selected' if q.country == 'KZ' }}>Казахстан</option>
+      </select>
+      <div class="cols2">
+        <div><label>Сумма заказа, ₽/₸</label><input type="number" name="order_sum" min="0" value="{{ q.order_sum|int if q.order_sum }}"></div>
+        <div><label>Объём, кг</label><input type="number" name="order_kg" min="0" value="{{ q.order_kg|int if q.order_kg }}"></div>
+      </div>
+      <label class="check"><input type="checkbox" name="need_docs" value="1" {{ 'checked' if q.need_docs }}> Только с документами на сайте</label>
+
+      <details style="margin-top:12px">
+        <summary>Что для меня важнее (веса оценки)</summary>
+        {% for k, v in weights.items() %}
+          <label>{{ LABELS[k] }}: <b id="o_w_{{ k }}">{{ v }}</b></label>
+          <input type="range" name="w_{{ k }}" min="0" max="50" value="{{ v }}">
+        {% endfor %}
+        <p class="small muted">Балл = Σ(вес × оценка критерия) / Σ весов. Поставьте 0, чтобы критерий не учитывался.</p>
+      </details>
+      <noscript><button class="btn" style="margin-top:12px">Найти</button></noscript>
+    </form>
+  </aside>
+  <section id="results">{% include "_results.html" %}</section>
+</div>
+{% endblock %}

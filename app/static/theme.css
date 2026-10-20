@@ -1,0 +1,26 @@
+/* Дизайн-токены. Чтобы перекрасить/перешрифтовать сервис — меняйте только этот файл. */
+:root {
+  --font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-size: 15px;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --gap: 16px;
+  --shadow: 0 1px 2px rgba(16, 24, 40, .06), 0 1px 3px rgba(16, 24, 40, .08);
+
+  --bg: #f6f7f4;
+  --surface: #ffffff;
+  --surface-2: #f0f2ec;
+  --border: #e2e5dc;
+  --text: #1d2318;
+  --muted: #6b7364;
+
+  --accent: #2f7d32;         /* основной цвет: кнопки, ссылки, балл */
+  --accent-contrast: #ffffff;
+  --accent-soft: #e6f2e4;
+
+  --red: #c62828;  --red-soft: #fdecea;
+  --amber: #b26a00; --amber-soft: #fff4e0;
+  --grey-soft: #eceeea;
+
+  --score-high: #2f7d32; --score-mid: #b26a00; --score-low: #c62828;
+}

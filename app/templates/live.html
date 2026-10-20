@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Живой поиск{% endblock %}
+{% block head %}{% if keys.maps_js and items %}<script src="https://api-maps.yandex.ru/v3/?apikey={{ keys.maps_js }}&lang=ru_RU"></script>{% endif %}{% endblock %}
+{% block content %}
+<h1>Живой поиск по Яндекс.Картам</h1>
+<p class="muted">Когда в базе мало вариантов: ищем организации в реальном времени, добавляем нужные в базу — дальше их можно обогатить по реестру и сайту.</p>
+<form class="card row" action="/live">
+  <input type="text" name="text" value="{{ text }}" placeholder="рыба оптом Казань" style="flex:1">
+  <button class="btn">Искать</button>
+</form>
+{% if not keys.yandex %}<div class="msg" style="margin-top:12px">Живой поиск выключен: не задан ключ <code>YANDEX_GEOSEARCH_KEY</code> (кабинет разработчика Яндекса → «API Поиска по организациям»). Остальной сервис работает.</div>{% endif %}
+{% if err %}<div class="msg" style="margin-top:12px">Ошибка: {{ err }}</div>{% endif %}
+{% if text and not items and not err %}<div class="msg" style="margin-top:12px">Ничего не найдено. Яндекс ищет по формуле «что + где»: попробуйте коротко, например «рыба оптом Казань», «упаковка для еды Москва».</div>{% endif %}
+{% if items %}
+  {% if keys.maps_js %}<div id="map" class="map" style="margin-top:12px"></div>
+  <script type="module">drawMap("map", {{ items|tojson }});</script>{% endif %}
+  {% for it in items %}
+  <div class="card">
+    <div class="row between">
+      <div><b>{{ it.name }}</b><div class="small muted">{{ it.address }} · {{ it.categories|join(', ') }}</div>
+        <div class="small">{{ it.phone or '' }} {% if it.website %}· <a href="{{ it.website }}" target="_blank" rel="noopener">{{ it.website }}</a>{% endif %}</div></div>
+      <form method="post" action="/add" class="row">
+        {% for k in ['name', 'website', 'phone', 'address', 'lat', 'lon'] %}<input type="hidden" name="{{ k }}" value="{{ it[k] or '' }}">{% endfor %}
+        <input type="hidden" name="city" value="{{ (it.address or '').split(',')[0] if (it.address or '').split(',')|length < 3 else (it.address or '').split(',')[1].strip() }}">
+        <input type="hidden" name="origin" value="yandex">
+        <select name="categories">{% for k, v in CATEGORIES.items() %}<option value="{{ k }}">{{ v }}</option>{% endfor %}</select>
+        <label class="check small"><input type="checkbox" name="run_enrich" value="1" checked> прочитать сайт</label>
+        <button class="btn sm">В базу</button>
+      </form>
+    </div>
+  </div>
+  {% endfor %}
+  <p class="small muted">Данные: Яндекс.Карты. Результаты показываются на карте и не сохраняются, пока вы не добавите поставщика.</p>
+{% endif %}
+{% endblock %}

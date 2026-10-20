@@ -1,0 +1,46 @@
+{% from "_macros.html" import score_badge, flags, money, cats %}
+{% if summary %}
+<div class="summary">
+  <div class="kpi"><b>{{ summary.count }}</b><span>поставщиков найдено</span></div>
+  {% if q.city %}<div class="kpi"><b>{{ summary.local }}</b><span>в городе или с доставкой: {{ q.city }}</span></div>{% endif %}
+  <div class="kpi"><b>{{ summary.with_docs }}%</b><span>с документами</span></div>
+  <div class="kpi"><b>{{ summary.with_moq }}%</b><span>с известным мин. заказом</span></div>
+  <div class="kpi"><b>{% if summary.moq_median %}{{ money(summary.moq_median, '') }}{{ summary.currency }}{% else %}—{% endif %}</b><span>медиана мин. заказа</span></div>
+  <div class="kpi"><b>{{ summary.with_registry }}%</b><span>проверены по реестру</span></div>
+</div>
+<p class="small muted">Отсортировано по баллу. Отметьте до 4 поставщиков для сравнения. Пробелы в данных снижают «Полноту» — их можно заполнить кнопками в карточке.</p>
+{% for s in ranked %}
+<div class="card sup">
+  {{ score_badge(s.score.total) }}
+  <div class="body">
+    <div class="row between">
+      <a class="name" href="/s/{{ s.id }}?{{ qs }}">{{ s.name }}</a>
+      <label class="check small"><input type="checkbox" data-cmp="{{ s.id }}"> сравнить</label>
+    </div>
+    <div class="small muted">{{ s.city }}{% if s.country == 'KZ' %}, Казахстан{% endif %} · {{ cats(s.categories) }}
+      {% if s.status_code %}<span class="flag grey">{{ STATUSES[s.status_code] }}</span>{% endif %}</div>
+    <div class="small">{{ s.products or '' }}</div>
+    <div class="facts">
+      <span>Мин. заказ: <b>{% if s.moq_value %}{{ money(s.moq_value, s.moq_unit) }}{% else %}<span class="muted">н/д</span>{% endif %}</b></span>
+      {% if s.free_delivery_from %}<span>Бесплатная доставка от <b>{{ money(s.free_delivery_from, 'RUB' if s.country == 'RU' else 'KZT') }}</b></span>{% endif %}
+      {% if s.defer_days %}<span>Отсрочка <b>{{ s.defer_days }} дн.</b></span>{% endif %}
+      <span>Документы: {% if s.certificates %}<b class="ok">{{ s.certificates|join(', ') }}</b>{% else %}<span class="muted">н/д</span>{% endif %}</span>
+      {% if s.website %}<a href="{{ s.website }}" target="_blank" rel="noopener">сайт ↗</a>{% endif %}
+      {% if s.phone %}<span>{{ s.phone }}</span>{% endif %}
+    </div>
+    <div class="small" style="margin-top:6px">
+      {% for p in s.score.parts if p.weight %}<span class="muted">{{ p.label }}: {{ (p.value*100)|round|int }}</span>{{ ' · ' if not loop.last }}{% endfor %}
+    </div>
+    {% if s.score.flags %}<div style="margin-top:6px">{{ flags(s.score.flags) }}</div>{% endif %}
+  </div>
+</div>
+{% endfor %}
+{% else %}
+<div class="card"><h2>Ничего не найдено</h2>
+  <p>Снимите часть фильтров или попробуйте <a href="/live?text={{ (q.text or CATEGORIES.get(q.category, '')) ~ ' ' ~ q.city }}">живой поиск по Яндекс.Картам</a> — найденных там поставщиков можно добавить в базу.</p>
+</div>
+{% endif %}
+<div class="card row between cmpbar" id="cmpbar" data-qs="{{ qs }}">
+  <span>Выбрано: <b data-count>0</b> из 4</span>
+  <span class="row"><a class="btn" data-go href="/compare">Сравнить</a><a class="btn ghost" data-csv href="/export.csv">CSV</a><button class="btn ghost sm" data-clear type="button">Сбросить</button></span>
+</div>

@@ -1,0 +1,12 @@
+{% if err %}<p class="flag amber">{{ err }}</p>
+{% elif not cands %}<p class="muted">В реестре по названию ничего не найдено.</p>
+{% else %}
+<p class="small muted">Выберите компанию — DaData ищет по названию, тёзки возможны. Сверьте адрес.</p>
+{% for c in cands %}
+<form method="post" action="/s/{{ s.id }}/set-inn" class="card" style="padding:10px">
+  <input type="hidden" name="tax_id" value="{{ c.tax_id }}">
+  <div class="row between"><b>{{ c.name }}</b><button class="btn sm">Это он</button></div>
+  <div class="small muted">ИНН/БИН {{ c.tax_id }} · {{ c.address or '' }} · рег. {{ c.registration_date or '—' }}</div>
+</form>
+{% endfor %}
+{% endif %}

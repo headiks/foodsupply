@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+{% from "_macros.html" import score_badge, flags, breakdown, money, cats %}
+{% block title %}{{ s.name }}{% endblock %}
+{% block head %}{% if keys.maps_js and s.lat %}<script src="https://api-maps.yandex.ru/v3/?apikey={{ keys.maps_js }}&lang=ru_RU"></script>{% endif %}{% endblock %}
+{% block content %}
+<p class="small"><a href="/?{{ back }}">← к результатам</a></p>
+{% if msg %}<div class="msg">{{ msg }}</div><br>{% endif %}
+
+<div class="card row" style="align-items:flex-start">
+  {{ score_badge(sc.total) }}
+  <div style="flex:1">
+    <h1>{{ s.name }}</h1>
+    <div class="muted">{{ s.city }}{% if s.country == 'KZ' %}, Казахстан{% endif %} · {{ cats(s.categories) }}
+      · <span class="small">источник записи: {{ {'seed': 'стартовая база', 'yandex': 'Яндекс.Карты', 'manual': 'добавлен вручную'}[s.origin] }}, обновлено {{ s.updated_at }}</span></div>
+    <p>{{ s.products or '' }}</p>
+    {{ flags(sc.flags) }}
+  </div>
+  <form method="post" action="/s/{{ s.id }}/status?{{ back }}" class="row">
+    <select name="status" onchange="this.form.submit()" {{ 'disabled' if not user }}>
+      <option value="">— статус в воронке —</option>
+      {% for k, v in STATUSES.items() %}<option value="{{ k }}" {{ 'selected' if s.status and s.status.status == k }}>{{ v }}</option>{% endfor %}
+    </select>
+    {% if not user %}<a class="small" href="/login?next=/s/{{ s.id }}">представьтесь</a>{% elif s.status %}<span class="small muted">{{ s.status.author }}, {{ s.status.updated_at }}</span>{% endif %}
+  </form>
+</div>
+
+<div class="grid side" style="margin-top:12px">
+  <div class="stack">
+    <div class="card">
+      <h2>Контакты и условия</h2>
+      <table>
+        <tr><th>Сайт</th><td>{% if s.website %}<a href="{{ s.website }}" target="_blank" rel="noopener">{{ s.website }}</a>{% else %}—{% endif %}</td></tr>
+        <tr><th>Телефон</th><td>{{ s.phone or '—' }}</td></tr>
+        <tr><th>Email</th><td>{% if s.email %}<a href="mailto:{{ s.email }}">{{ s.email }}</a>{% else %}—{% endif %}</td></tr>
+        <tr><th>Адрес</th><td>{{ s.address or '—' }}</td></tr>
+        <tr><th>ИНН/БИН</th><td>{{ s.tax_id or '—' }}</td></tr>
+        <tr><th>Мин. заказ</th><td>{{ money(s.moq_value, s.moq_unit) }}</td></tr>
+        <tr><th>Бесплатная доставка от</th><td>{{ money(s.free_delivery_from, 'RUB' if s.country == 'RU' else 'KZT') }}</td></tr>
+        <tr><th>Отсрочка</th><td>{{ (s.defer_days ~ ' дн.') if s.defer_days else '—' }}</td></tr>
+        <tr><th>Доставка</th><td>{{ s.delivery_terms or '—' }}</td></tr>
+        <tr><th>Регионы работы</th><td>{{ s.delivery_regions|join(', ') or '—' }}</td></tr>
+        <tr><th>Цены</th><td>{{ s.price_info or 'по запросу' }}</td></tr>
+        <tr><th>Документы</th><td>{% if s.certificates %}<span class="ok">{{ s.certificates|join(', ') }}</span>{% else %}<span class="muted">не найдены — запросить</span>{% endif %}</td></tr>
+      </table>
+      <details style="margin-top:10px"><summary>Редактировать вручную</summary>
+        <form method="post" action="/s/{{ s.id }}/edit?{{ back }}">
+          <div class="cols2">
+            <div><label>Телефон</label><input type="text" name="phone" value="{{ s.phone or '' }}"></div>
+            <div><label>Email</label><input type="text" name="email" value="{{ s.email or '' }}"></div>
+            <div><label>Сайт</label><input type="text" name="website" value="{{ s.website or '' }}"></div>
+            <div><label>Город</label><input type="text" name="city" value="{{ s.city or '' }}"></div>
+            <div><label>Мин. заказ</label><input type="number" name="moq_value" value="{{ s.moq_value|int if s.moq_value }}"></div>
+            <div><label>Единица</label><select name="moq_unit">{% for u in ['', 'RUB', 'KZT', 'кг', 'шт', 'коробов'] %}<option {{ 'selected' if s.moq_unit == u }}>{{ u }}</option>{% endfor %}</select></div>
+            <div><label>Бесплатная доставка от</label><input type="number" name="free_delivery_from" value="{{ s.free_delivery_from|int if s.free_delivery_from }}"></div>
+            <div><label>Отсрочка, дней</label><input type="number" name="defer_days" value="{{ s.defer_days or '' }}"></div>
+          </div>
+          <label>Ассортимент</label><input type="text" name="products" value="{{ s.products or '' }}">
+          <label>Условия доставки</label><input type="text" name="delivery_terms" value="{{ s.delivery_terms or '' }}">
+          <label>Регионы доставки (через запятую)</label><input type="text" name="delivery_regions" value="{{ s.delivery_regions|join(', ') }}">
+          <label>Цены</label><input type="text" name="price_info" value="{{ s.price_info or '' }}" placeholder="лосось охл. 1 650 ₽/кг (окт 2026)">
+          <label>Категории</label>
+          <div class="row">{% for k, v in CATEGORIES.items() %}<label class="check"><input type="checkbox" name="categories" value="{{ k }}" {{ 'checked' if k in s.categories }}>{{ v }}</label>{% endfor %}</div>
+          <label>Документы</label>
+          <div class="row">{% for c in ['Декларации ЕАЭС', 'ХАССП', 'ISO 22000', 'Меркурий', 'Халал'] %}<label class="check"><input type="checkbox" name="certificates" value="{{ c }}" {{ 'checked' if c in s.certificates }}>{{ c }}</label>{% endfor %}</div>
+          <br><button class="btn">Сохранить</button>
+        </form>
+      </details>
+    </div>
+
+    <div class="card">
+      <h2>Почему такой балл</h2>
+      {{ breakdown(sc.parts) }}
+      <p class="small muted">Веса — со страницы поиска. Итог = Σ(вес × оценка) / Σ весов × 100.</p>
+    </div>
+
+    <div class="card">
+      <h2>Реестр юрлиц</h2>
+      {% if s.company %}
+        <table>
+          <tr><th>Наименование</th><td>{{ s.company.name }}</td></tr>
+          <tr><th>Статус</th><td>{% if s.company.status == 'ACTIVE' %}<span class="ok">действующая</span>{% else %}<span class="flag red">{{ s.company.status }}</span>{% endif %}</td></tr>
+          <tr><th>Дата регистрации</th><td>{{ s.company.registration_date or '—' }}</td></tr>
+          <tr><th>ОКВЭД/ОКЭД</th><td>{{ s.company.okved or '—' }} {{ s.company.okved_name or '' }}</td></tr>
+          <tr><th>Руководитель</th><td>{{ s.company.manager or '—' }}</td></tr>
+          {% if s.company.employees %}<tr><th>Сотрудников</th><td>{{ s.company.employees }}</td></tr>{% endif %}
+          {% if s.company.revenue %}<tr><th>Выручка {{ s.company.finance_year }}</th><td>{{ money(s.company.revenue, 'RUB') }}</td></tr>{% endif %}
+          <tr><th>Источник</th><td class="small muted">{{ s.company.source }}, проверено {{ s.company.checked_at }}</td></tr>
+          {% set d = s.company.deep %}{% if d %}
+          <tr><th>Выручка {{ d.finance_year or '' }}</th><td>{{ money(d.revenue, 'RUB') }}{% if d.revenue_growth is not none %} <span class="small {{ 'ok' if d.revenue_growth >= 0 }}">{{ '%+d'|format(d.revenue_growth) }}% г/г</span>{% endif %}</td></tr>
+          <tr><th>Чистая прибыль</th><td>{{ money(d.net_profit, 'RUB') }}</td></tr>
+          <tr><th>Арбитраж (ответчик)</th><td>{{ d.court_cases or 0 }}{% if d.court_sum %} на {{ money(d.court_sum, 'RUB') }}{% endif %}</td></tr>
+          <tr><th>Исполнительные производства</th><td>{% if d.enforcements %}<span class="flag red">{{ d.enforcements }}{% if d.enforcement_debt %} · {{ money(d.enforcement_debt, 'RUB') }}{% endif %}</span>{% else %}<span class="ok">нет</span>{% endif %}</td></tr>
+          <tr><th></th><td class="small muted">{{ d.source }}, проверено {{ d.checked_at }}</td></tr>
+          {% endif %}
+        </table>
+      {% else %}<p class="muted">Ещё не проверялась.</p>{% endif %}
+      <div class="row" style="margin-top:10px">
+        <form method="post" action="/s/{{ s.id }}/registry?{{ back }}"><button class="btn sm" {{ 'disabled' if not ((keys.dadata or keys.checko) and s.tax_id) }}>Проверить по реестру</button></form>
+        {% if s.country == 'RU' %}<form method="post" action="/s/{{ s.id }}/deep?{{ back }}"><button class="btn ghost sm" title="Checko: финансы, суды, ФССП" {{ 'disabled' if not (keys.checko and s.tax_id) }}>Углублённая проверка</button></form>{% endif %}
+        <button class="btn ghost sm" hx-get="/s/{{ s.id }}/find-inn" hx-target="#inn" {{ 'disabled' if not keys.dadata }}>Найти ИНН/БИН по названию</button>
+        {% if not keys.dadata %}<span class="small muted">нужен ключ DADATA_API_KEY</span>{% endif %}{% if not keys.checko and s.country == 'RU' %}<span class="small muted">углублённая — нужен CHECKO_API_KEY</span>{% endif %}
+      </div>
+      <div id="inn"></div>
+      <p class="small muted">Также проверить вручную: <a target="_blank" rel="noopener" href="https://pub.fsa.gov.ru/rds/declaration">реестр деклараций Росаккредитации</a>{% if s.tax_id %} (поиск по ИНН {{ s.tax_id }}){% endif %} · <a target="_blank" rel="noopener" href="https://egrul.nalog.ru/">ЕГРЮЛ ФНС</a></p>
+    </div>
+
+    {% if s.lat and keys.maps_js %}
+    <div class="card"><h2>На карте</h2><div id="map" class="map"></div></div>
+    <script type="module">drawMap("map", [{lat: {{ s.lat }}, lon: {{ s.lon }}, name: {{ s.name|tojson }}, address: {{ (s.address or "")|tojson }}}]);</script>
+    {% endif %}
+
+    <div class="card">
+      <h2>Откуда данные</h2>
+      <table>
+        <tr><th>Поле</th><th>Источник</th><th>Дата</th></tr>
+        {% for f, p in s.provenance.items() %}
+        <tr><td>{{ FIELD_LABELS.get(f, f) }}</td>
+            <td class="small">{% if p.site %}<a href="{{ p.site }}" target="_blank" rel="noopener">{{ p.site }}</a>{% else %}{{ p.api }}{% endif %}{% if p.note %} <span class="muted">— {{ p.note }}</span>{% endif %}</td>
+            <td class="small">{{ p.date }}</td></tr>
+        {% endfor %}
+      </table>
+      {% if s.extracted %}<p class="small muted">Последнее чтение сайта: {{ s.extracted.at }}, метод: {{ s.extracted.method }}, страниц: {{ s.extracted.pages|length }}.</p>{% endif %}
+    </div>
+  </div>
+
+  <div class="stack">
+    <div class="card">
+      <h2>Собрать данные</h2>
+      <form method="post" action="/s/{{ s.id }}/extract?{{ back }}" hx-indicator="#sp1">
+        <button class="btn" {{ 'disabled' if not s.website }}>Извлечь условия с сайта</button> <span id="sp1" class="spin">читаю сайт…</span>
+      </form>
+      <p class="small muted">Читает главную и страницы «доставка / оплата / контакты / сертификаты». {% if keys.llm %}Факты извлекает LLM (OpenRouter).{% else %}Без ключа LLM — регулярными выражениями.{% endif %} Заполняет только пустые поля.</p>
+    </div>
+
+    <div class="card">
+      <h2>Запрос КП</h2>
+      <form hx-post="/s/{{ s.id }}/rfq" hx-target="#rfq" hx-indicator="#sp2">
+        <label>Объём</label><input type="text" name="volume" placeholder="лосось охл. 200 кг/нед" value="{{ q.text }}">
+        <div class="cols2">
+          <div><label>Периодичность</label><input type="text" name="frequency" placeholder="2 раза в неделю"></div>
+          <div><label>Точек</label><input type="text" name="points" placeholder="15"></div>
+        </div>
+        <label>Город</label><input type="text" name="city" value="{{ q.city }}">
+        <label>Дополнительно</label><input type="text" name="extra" placeholder="нужна фасовка 1 кг, отсрочка 14 дней">
+        <br><button class="btn" style="margin-top:8px">Сформировать письмо</button> <span id="sp2" class="spin">пишу…</span>
+      </form>
+      <div id="rfq"></div>
+    </div>
+
+    <div class="card">
+      <h2>Заметки команды</h2>
+      {% if user %}
+      <form method="post" action="/s/{{ s.id }}/note?{{ back }}">
+        <textarea name="text" placeholder="Например: звонил 20.10, прайс пришлют завтра; лосось 1 650 ₽/кг"></textarea>
+        <button class="btn sm">Добавить</button>
+      </form>
+      {% else %}<p><a href="/login?next=/s/{{ s.id }}">Представьтесь</a>, чтобы оставлять заметки.</p>{% endif %}
+      {% for n in notes %}
+        <div style="margin-top:10px"><b class="small">{{ n.author }}</b> <span class="small muted">{{ n.created_at }}</span><div>{{ n.text }}</div></div>
+      {% else %}<p class="small muted">Заметок пока нет.</p>{% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}

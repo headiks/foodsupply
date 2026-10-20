@@ -1,0 +1,7 @@
+.git
+.claude
+tests
+data/app.db
+__pycache__
+*.pyc
+.env

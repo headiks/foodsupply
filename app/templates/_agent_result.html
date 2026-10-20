@@ -1,0 +1,27 @@
+{% from "_macros.html" import score_badge, flags, money, cats %}
+<div class="card">
+  <div class="row between"><h2>Ответ</h2><span class="chip">{{ res.mode }}</span></div>
+  <div class="answer">{{ res.answer }}</div>
+  {% if ids %}<p><a class="btn sm" href="/compare?ids={{ ids }}">Сравнить подборку</a> <a class="btn ghost sm" href="/export.csv?ids={{ ids }}">CSV</a></p>{% endif %}
+</div>
+{% for s in cards %}
+<div class="card sup">
+  {{ score_badge(s.score.total) }}
+  <div class="body">
+    <a class="name" href="/s/{{ s.id }}">{{ s.name }}</a>
+    <div class="small muted">{{ s.city }} · {{ cats(s.categories) }}</div>
+    <div class="facts"><span>Мин. заказ: <b>{% if s.moq_value %}{{ money(s.moq_value, s.moq_unit) }}{% else %}н/д{% endif %}</b></span>
+      <span>Документы: {{ s.certificates|join(', ') or 'н/д' }}</span>{% if s.phone %}<span>{{ s.phone }}</span>{% endif %}</div>
+    {% if s.score.flags %}<div style="margin-top:6px">{{ flags(s.score.flags) }}</div>{% endif %}
+  </div>
+</div>
+{% endfor %}
+<details class="card" style="margin-top:12px"><summary>Ход рассуждений агента ({{ res.trace|length }} шагов)</summary>
+  {% for t in res.trace %}
+  <div class="trace" style="margin-top:10px">
+    <b>{{ loop.index }}. {{ t.tool or '—' }}</b> <span class="muted">{{ t.thought }}</span>
+    {% if t.args %}<div><code>args: {% for k, v in t.args.items() %}{{ k }}={{ v }} {% endfor %}</code></div>{% endif %}
+    {% if t.result %}<div><code>{{ t.result }}</code></div>{% endif %}
+  </div>
+  {% endfor %}
+</details>

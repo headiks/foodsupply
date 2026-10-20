@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% from "_macros.html" import score_badge, flags, money, cats %}
+{% block title %}Сравнение{% endblock %}
+{% block content %}
+<h1>Сравнение поставщиков</h1>
+{% if not rows %}<p>Отметьте поставщиков галочкой «сравнить» в <a href="/">выдаче</a>.</p>{% else %}
+<p class="small muted">Зелёным подсвечено лучшее значение в строке. Балл рассчитан с весами по умолчанию{% if q.city %} для города {{ q.city }}{% endif %}.</p>
+<div class="card" style="overflow-x:auto">
+<table>
+  <tr><th></th>{% for s in rows %}<th><a href="/s/{{ s.id }}"><b>{{ s.name }}</b></a><br>{{ s.city }}</th>{% endfor %}</tr>
+  <tr><th>Балл</th>{% for s in rows %}<td class="{{ 'best' if loop.first }}">{{ score_badge(s.score.total) }}</td>{% endfor %}</tr>
+  {% for p in rows[0].score.parts %}{% set i = loop.index0 %}
+    <tr><th>{{ p.label }}</th>{% for s in rows %}{% set v = s.score.parts[i] %}
+      <td class="{{ 'best' if v.value == best[i] and rows|length > 1 }}"><b>{{ (v.value*100)|round|int }}</b><div class="small muted">{{ v.why }}</div></td>{% endfor %}</tr>
+  {% endfor %}
+  <tr><th>Категории</th>{% for s in rows %}<td>{{ cats(s.categories) }}</td>{% endfor %}</tr>
+  <tr><th>Мин. заказ</th>{% for s in rows %}<td>{{ money(s.moq_value, s.moq_unit) }}</td>{% endfor %}</tr>
+  <tr><th>Бесплатная доставка от</th>{% for s in rows %}<td>{{ money(s.free_delivery_from, 'RUB' if s.country == 'RU' else 'KZT') }}</td>{% endfor %}</tr>
+  <tr><th>Отсрочка</th>{% for s in rows %}<td>{{ (s.defer_days ~ ' дн.') if s.defer_days else '—' }}</td>{% endfor %}</tr>
+  <tr><th>Доставка</th>{% for s in rows %}<td class="small">{{ s.delivery_terms or '—' }}<br><span class="muted">{{ s.delivery_regions|join(', ') }}</span></td>{% endfor %}</tr>
+  <tr><th>Документы</th>{% for s in rows %}<td>{{ s.certificates|join(', ') or '—' }}</td>{% endfor %}</tr>
+  <tr><th>Цены</th>{% for s in rows %}<td class="small">{{ s.price_info or 'по запросу' }}</td>{% endfor %}</tr>
+  <tr><th>Контакты</th>{% for s in rows %}<td class="small">{{ s.phone or '' }}<br>{{ s.email or '' }}<br>{% if s.website %}<a href="{{ s.website }}" target="_blank" rel="noopener">сайт ↗</a>{% endif %}</td>{% endfor %}</tr>
+  <tr><th>Риски</th>{% for s in rows %}<td>{{ flags(s.score.flags) or '—' }}</td>{% endfor %}</tr>
+</table>
+</div>
+<p><a class="btn ghost" href="/export.csv?ids={{ rows|map(attribute='id')|join(',') }}">Скачать CSV</a></p>
+{% endif %}
+{% endblock %}

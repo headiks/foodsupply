@@ -1,0 +1,23 @@
+# Render Blueprint: New → Blueprint → этот репозиторий. Значения ключей Render спросит при создании (sync: false).
+services:
+  - type: web
+    name: foodsupply
+    runtime: docker
+    plan: free
+    region: frankfurt
+    healthCheckPath: /health
+    envVars:
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: OPENROUTER_MODELS
+        value: minimax/minimax-m3.1-flash:free,nvidia/nemotron-3-super-120b-a12b:free,google/gemma-4-31b-it:free
+      - key: DADATA_API_KEY
+        sync: false
+      - key: CHECKO_API_KEY
+        sync: false
+      - key: YANDEX_GEOSEARCH_KEY
+        sync: false
+      - key: YANDEX_GEOSEARCH_SECRET
+        sync: false
+      - key: YANDEX_MAPS_JS_KEY
+        sync: false
