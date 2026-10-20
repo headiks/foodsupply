@@ -21,6 +21,10 @@ OPENROUTER_MODELS = [m.strip() for m in os.getenv(
     "minimax/minimax-m3.1-flash:free,nvidia/nemotron-3-super-120b-a12b:free,google/gemma-4-31b-it:free",
 ).split(",") if m.strip()]
 
+GIGACHAT_AUTH_KEY = os.getenv("GIGACHAT_AUTH_KEY", "")  # ключ авторизации (Basic) из кабинета developers.sber.ru
+GIGACHAT_SCOPE = os.getenv("GIGACHAT_SCOPE", "GIGACHAT_API_PERS")
+GIGACHAT_MODEL = os.getenv("GIGACHAT_MODEL", "GigaChat")
+
 DADATA_API_KEY = os.getenv("DADATA_API_KEY", "")
 YANDEX_GEOSEARCH_KEY = os.getenv("YANDEX_GEOSEARCH_KEY", "")
 YANDEX_GEOSEARCH_SECRET = os.getenv("YANDEX_GEOSEARCH_SECRET", "")  # секрет «подписи запросов», если она включена

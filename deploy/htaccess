@@ -2,4 +2,5 @@ Options +ExecCGI
 AddHandler cgi-script .cgi
 RewriteEngine On
 RewriteRule ^proxy\.cgi$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ proxy.cgi [L]

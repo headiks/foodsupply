@@ -11,6 +11,8 @@ services:
         sync: false
       - key: OPENROUTER_MODELS
         value: minimax/minimax-m3.1-flash:free,nvidia/nemotron-3-super-120b-a12b:free,google/gemma-4-31b-it:free
+      - key: GIGACHAT_AUTH_KEY
+        sync: false
       - key: DADATA_API_KEY
         sync: false
       - key: CHECKO_API_KEY

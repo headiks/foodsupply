@@ -129,7 +129,7 @@
       <form method="post" action="/s/{{ s.id }}/extract?{{ back }}" hx-indicator="#sp1">
         <button class="btn" {{ 'disabled' if not s.website }}>Извлечь условия с сайта</button> <span id="sp1" class="spin">читаю сайт…</span>
       </form>
-      <p class="small muted">Читает главную и страницы «доставка / оплата / контакты / сертификаты». {% if keys.llm %}Факты извлекает LLM (OpenRouter).{% else %}Без ключа LLM — регулярными выражениями.{% endif %} Заполняет только пустые поля.</p>
+      <p class="small muted">Читает главную и страницы «доставка / оплата / контакты / сертификаты». {% if keys.llm %}Факты извлекает LLM (OpenRouter → GigaChat).{% else %}Без ключа LLM — регулярными выражениями.{% endif %} Заполняет только пустые поля.</p>
     </div>
 
     <div class="card">

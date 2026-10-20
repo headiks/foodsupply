@@ -2,7 +2,7 @@ import os
 import tempfile
 
 os.environ["DB_PATH"] = os.path.join(tempfile.mkdtemp(), "test.db")
-for k in ("OPENROUTER_API_KEY", "DADATA_API_KEY", "YANDEX_GEOSEARCH_KEY", "YANDEX_MAPS_JS_KEY", "CHECKO_API_KEY"):
+for k in ("OPENROUTER_API_KEY", "DADATA_API_KEY", "YANDEX_GEOSEARCH_KEY", "YANDEX_MAPS_JS_KEY", "CHECKO_API_KEY", "GIGACHAT_AUTH_KEY"):
     os.environ[k] = ""  # пустое значение, а не pop: иначе подтянется локальный .env и тесты пойдут в живые API
 
 from fastapi.testclient import TestClient  # noqa: E402
@@ -128,3 +128,28 @@ def test_yandex_signature_is_urlsafe_hmac():
     from app.sources import yandex
     sig = yandex.sign("/v1/?apikey=k&text=x", "secret")
     assert sig == "VVgxZ6FCWbNek8r66DB-TlJJI5bRzyBuaiHM2TyjqGg="  # сверено с openssl dgst -sha256 -hmac
+
+
+def test_llm_falls_back_to_gigachat_when_openrouter_blocked(monkeypatch):
+    import time as _t
+    from app import config
+
+    class R:
+        def __init__(self, code, data): self.status_code, self._d = code, data
+        def json(self): return self._d
+        def raise_for_status(self):
+            if self.status_code >= 400: raise llm.httpx.HTTPStatusError("err", request=None, response=None)
+
+    def fake_post(url, **kw):
+        if "openrouter" in url:
+            return R(403, {})  # как с российского IP
+        if "oauth" in url:
+            return R(200, {"access_token": "tok", "expires_at": int(_t.time() * 1000) + 1_800_000})
+        assert kw["headers"]["Authorization"] == "Bearer tok"
+        return R(200, {"model": "GigaChat:2", "choices": [{"message": {"content": "привет"}}]})
+
+    monkeypatch.setattr(config, "OPENROUTER_API_KEY", "x")
+    monkeypatch.setattr(config, "GIGACHAT_AUTH_KEY", "y")
+    monkeypatch.setattr(llm.httpx, "post", fake_post)
+    llm._giga.update(token=None, exp_ms=0)
+    assert llm.chat([{"role": "user", "content": "hi"}]) == ("привет", "gigachat:GigaChat:2")

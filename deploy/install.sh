@@ -17,6 +17,8 @@ chmod 755 deploy/run.sh deploy/proxy.cgi
 rm -rf $WEB/fs-test
 cp deploy/proxy.cgi $WEB/proxy.cgi && chmod 755 $WEB/proxy.cgi
 cp deploy/htaccess $WEB/.htaccess
+# статику отдаёт сам веб-сервер хостинга (фронтовый nginx перехватывает .css/.js по расширению)
+rm -rf $WEB/static && cp -r app/static $WEB/static
 # перезапуск приложения с новым кодом
 pkill -u "$(whoami)" -f "[u]vicorn app.main:app" || true
 sleep 1

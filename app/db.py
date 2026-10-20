@@ -149,12 +149,11 @@ def list_suppliers(con, country=None, category=None, ids=None):
     sql, args = ["SELECT s.*, st.status AS status_code FROM suppliers s LEFT JOIN statuses st ON st.supplier_id = s.id WHERE 1=1"], []
     if country:
         sql.append("AND s.country = ?"); args.append(country)
-    if category:
-        # категория или дистрибьютор широкого профиля
-        sql.append("AND EXISTS (SELECT 1 FROM json_each(s.categories) j WHERE j.value IN (?, 'broadline'))"); args.append(category)
     if ids:
         sql.append(f"AND s.id IN ({','.join('?' * len(ids))})"); args.extend(ids)
-    return [_row(r) for r in con.execute(" ".join(sql), args).fetchall()]
+    rows = [_row(r) for r in con.execute(" ".join(sql), args).fetchall()]
+    # категория или дистрибьютор широкого профиля; в Python, а не json_each — на хостингах бывает SQLite без JSON1
+    return [r for r in rows if category in r["categories"] or "broadline" in r["categories"]] if category else rows
 
 
 def notes_for(con, sid):
@@ -167,8 +166,8 @@ def add_note(con, sid, author, text):
 
 
 def set_status(con, sid, status, author):
-    con.execute("INSERT INTO statuses (supplier_id, status, author, updated_at) VALUES (?, ?, ?, ?) "
-                "ON CONFLICT(supplier_id) DO UPDATE SET status = excluded.status, author = excluded.author, updated_at = excluded.updated_at",
+    # INSERT OR REPLACE, а не upsert: ON CONFLICT DO UPDATE нет в SQLite < 3.24 (CentOS 7 — 3.7.17)
+    con.execute("INSERT OR REPLACE INTO statuses (supplier_id, status, author, updated_at) VALUES (?, ?, ?, ?)",
                 (sid, status, author, now()))
     con.commit()
 
